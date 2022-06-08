@@ -1,0 +1,1122 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/root/ontologies/2021/0/MenstrualCycleTracking"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/root/ontologies/2021/0/MenstrualCycleTracking">
+    <Prefix name="" IRI="http://www.semanticweb.org/root/ontologies/2021/0/MenstrualCycleTracking#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Acne"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Angry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Anxious"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Appetite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Backache"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bloating"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Calm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Constipation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cramps"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Depressed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Diarrhea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dizziness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Emotional"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Energetic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Exited"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fatigue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Focused"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Frisky"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Frustated"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Happy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Headache"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HotFlashes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InLove"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Indigestion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Insomnia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Irritable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Migraine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MoodFeature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MoodRelation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Moody"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nausea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PainDuringSex"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PelvicPain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PhysicalSymptom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SexDrive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sick"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SoreBreasts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SymptomRelation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SymptomValue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#User"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserWithAcne"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserWithImsonia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserWithMigraine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VaginalPain"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDiagnosisMood"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDiagnosisSymptom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMoodValue"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSymptomValue"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#eva"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Acne"/>
+        <Class IRI="#SymptomValue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Angry"/>
+        <Class IRI="#MoodFeature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anxious"/>
+        <Class IRI="#MoodFeature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Appetite"/>
+        <Class IRI="#SymptomValue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Backache"/>
+        <Class IRI="#SymptomValue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bloating"/>
+        <Class IRI="#SymptomValue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Calm"/>
+        <Class IRI="#MoodFeature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Constipation"/>
+        <Class IRI="#SymptomValue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cramps"/>
+        <Class IRI="#SymptomValue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Depressed"/>
+        <Class IRI="#MoodFeature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diarrhea"/>
+        <Class IRI="#SymptomValue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dizziness"/>
+        <Class IRI="#SymptomValue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Emotional"/>
+        <Class IRI="#MoodFeature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Energetic"/>
+        <Class IRI="#MoodFeature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Exited"/>
+        <Class IRI="#MoodFeature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fatigue"/>
+        <Class IRI="#SymptomValue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Focused"/>
+        <Class IRI="#MoodFeature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Frisky"/>
+        <Class IRI="#MoodFeature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Frustated"/>
+        <Class IRI="#MoodFeature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Happy"/>
+        <Class IRI="#MoodFeature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Headache"/>
+        <Class IRI="#SymptomValue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HotFlashes"/>
+        <Class IRI="#SymptomValue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InLove"/>
+        <Class IRI="#MoodFeature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Indigestion"/>
+        <Class IRI="#SymptomValue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Insomnia"/>
+        <Class IRI="#SymptomValue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Irritable"/>
+        <Class IRI="#MoodFeature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Migraine"/>
+        <Class IRI="#SymptomValue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Moody"/>
+        <Class IRI="#MoodFeature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nausea"/>
+        <Class IRI="#SymptomValue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PainDuringSex"/>
+        <Class IRI="#SymptomValue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PelvicPain"/>
+        <Class IRI="#SymptomValue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SexDrive"/>
+        <Class IRI="#SymptomValue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sick"/>
+        <Class IRI="#SymptomValue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SoreBreasts"/>
+        <Class IRI="#SymptomValue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserWithAcne"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserWithImsonia"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserWithMigraine"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VaginalPain"/>
+        <Class IRI="#SymptomValue"/>
+    </SubClassOf>
+    <DisjointUnion>
+        <Class IRI="#Acne"/>
+        <Class IRI="#Acne"/>
+        <Class IRI="#Appetite"/>
+        <Class IRI="#Backache"/>
+        <Class IRI="#Bloating"/>
+        <Class IRI="#Constipation"/>
+        <Class IRI="#Cramps"/>
+        <Class IRI="#Diarrhea"/>
+        <Class IRI="#Dizziness"/>
+        <Class IRI="#Fatigue"/>
+        <Class IRI="#Headache"/>
+        <Class IRI="#HotFlashes"/>
+        <Class IRI="#Indigestion"/>
+        <Class IRI="#Insomnia"/>
+        <Class IRI="#Migraine"/>
+        <Class IRI="#Nausea"/>
+        <Class IRI="#PainDuringSex"/>
+        <Class IRI="#PelvicPain"/>
+        <Class IRI="#SexDrive"/>
+        <Class IRI="#Sick"/>
+        <Class IRI="#SoreBreasts"/>
+        <Class IRI="#VaginalPain"/>
+    </DisjointUnion>
+    <DisjointUnion>
+        <Class IRI="#Angry"/>
+        <Class IRI="#Angry"/>
+        <Class IRI="#Anxious"/>
+        <Class IRI="#Calm"/>
+        <Class IRI="#Depressed"/>
+        <Class IRI="#Emotional"/>
+        <Class IRI="#Energetic"/>
+        <Class IRI="#Exited"/>
+        <Class IRI="#Focused"/>
+        <Class IRI="#Frisky"/>
+        <Class IRI="#Frustated"/>
+        <Class IRI="#Happy"/>
+        <Class IRI="#InLove"/>
+        <Class IRI="#Irritable"/>
+        <Class IRI="#Moody"/>
+    </DisjointUnion>
+    <DisjointUnion>
+        <Class IRI="#Anxious"/>
+        <Class IRI="#Angry"/>
+        <Class IRI="#Anxious"/>
+        <Class IRI="#Calm"/>
+        <Class IRI="#Depressed"/>
+        <Class IRI="#Emotional"/>
+        <Class IRI="#Energetic"/>
+        <Class IRI="#Exited"/>
+        <Class IRI="#Focused"/>
+        <Class IRI="#Frisky"/>
+        <Class IRI="#Frustated"/>
+        <Class IRI="#Happy"/>
+        <Class IRI="#InLove"/>
+        <Class IRI="#Irritable"/>
+        <Class IRI="#Moody"/>
+    </DisjointUnion>
+    <DisjointUnion>
+        <Class IRI="#Appetite"/>
+        <Class IRI="#Acne"/>
+        <Class IRI="#Appetite"/>
+        <Class IRI="#Backache"/>
+        <Class IRI="#Bloating"/>
+        <Class IRI="#Constipation"/>
+        <Class IRI="#Cramps"/>
+        <Class IRI="#Diarrhea"/>
+        <Class IRI="#Dizziness"/>
+        <Class IRI="#Fatigue"/>
+        <Class IRI="#Headache"/>
+        <Class IRI="#HotFlashes"/>
+        <Class IRI="#Indigestion"/>
+        <Class IRI="#Insomnia"/>
+        <Class IRI="#Migraine"/>
+        <Class IRI="#Nausea"/>
+        <Class IRI="#PainDuringSex"/>
+        <Class IRI="#PelvicPain"/>
+        <Class IRI="#SexDrive"/>
+        <Class IRI="#Sick"/>
+        <Class IRI="#SoreBreasts"/>
+        <Class IRI="#VaginalPain"/>
+    </DisjointUnion>
+    <DisjointUnion>
+        <Class IRI="#Backache"/>
+        <Class IRI="#Acne"/>
+        <Class IRI="#Appetite"/>
+        <Class IRI="#Backache"/>
+        <Class IRI="#Bloating"/>
+        <Class IRI="#Constipation"/>
+        <Class IRI="#Cramps"/>
+        <Class IRI="#Diarrhea"/>
+        <Class IRI="#Dizziness"/>
+        <Class IRI="#Fatigue"/>
+        <Class IRI="#Headache"/>
+        <Class IRI="#HotFlashes"/>
+        <Class IRI="#Indigestion"/>
+        <Class IRI="#Insomnia"/>
+        <Class IRI="#Migraine"/>
+        <Class IRI="#Nausea"/>
+        <Class IRI="#PainDuringSex"/>
+        <Class IRI="#PelvicPain"/>
+        <Class IRI="#SexDrive"/>
+        <Class IRI="#Sick"/>
+        <Class IRI="#SoreBreasts"/>
+        <Class IRI="#VaginalPain"/>
+    </DisjointUnion>
+    <DisjointUnion>
+        <Class IRI="#Bloating"/>
+        <Class IRI="#Acne"/>
+        <Class IRI="#Appetite"/>
+        <Class IRI="#Backache"/>
+        <Class IRI="#Bloating"/>
+        <Class IRI="#Constipation"/>
+        <Class IRI="#Cramps"/>
+        <Class IRI="#Diarrhea"/>
+        <Class IRI="#Dizziness"/>
+        <Class IRI="#Fatigue"/>
+        <Class IRI="#Headache"/>
+        <Class IRI="#HotFlashes"/>
+        <Class IRI="#Indigestion"/>
+        <Class IRI="#Insomnia"/>
+        <Class IRI="#Migraine"/>
+        <Class IRI="#Nausea"/>
+        <Class IRI="#PainDuringSex"/>
+        <Class IRI="#PelvicPain"/>
+        <Class IRI="#SexDrive"/>
+        <Class IRI="#Sick"/>
+        <Class IRI="#SoreBreasts"/>
+        <Class IRI="#VaginalPain"/>
+    </DisjointUnion>
+    <DisjointUnion>
+        <Class IRI="#Calm"/>
+        <Class IRI="#Angry"/>
+        <Class IRI="#Anxious"/>
+        <Class IRI="#Calm"/>
+        <Class IRI="#Depressed"/>
+        <Class IRI="#Emotional"/>
+        <Class IRI="#Energetic"/>
+        <Class IRI="#Exited"/>
+        <Class IRI="#Focused"/>
+        <Class IRI="#Frisky"/>
+        <Class IRI="#Frustated"/>
+        <Class IRI="#Happy"/>
+        <Class IRI="#InLove"/>
+        <Class IRI="#Irritable"/>
+        <Class IRI="#Moody"/>
+    </DisjointUnion>
+    <DisjointUnion>
+        <Class IRI="#Constipation"/>
+        <Class IRI="#Acne"/>
+        <Class IRI="#Appetite"/>
+        <Class IRI="#Backache"/>
+        <Class IRI="#Bloating"/>
+        <Class IRI="#Constipation"/>
+        <Class IRI="#Cramps"/>
+        <Class IRI="#Diarrhea"/>
+        <Class IRI="#Dizziness"/>
+        <Class IRI="#Fatigue"/>
+        <Class IRI="#Headache"/>
+        <Class IRI="#HotFlashes"/>
+        <Class IRI="#Indigestion"/>
+        <Class IRI="#Insomnia"/>
+        <Class IRI="#Migraine"/>
+        <Class IRI="#Nausea"/>
+        <Class IRI="#PainDuringSex"/>
+        <Class IRI="#PelvicPain"/>
+        <Class IRI="#SexDrive"/>
+        <Class IRI="#Sick"/>
+        <Class IRI="#SoreBreasts"/>
+        <Class IRI="#VaginalPain"/>
+    </DisjointUnion>
+    <DisjointUnion>
+        <Class IRI="#Cramps"/>
+        <Class IRI="#Acne"/>
+        <Class IRI="#Appetite"/>
+        <Class IRI="#Backache"/>
+        <Class IRI="#Bloating"/>
+        <Class IRI="#Constipation"/>
+        <Class IRI="#Cramps"/>
+        <Class IRI="#Diarrhea"/>
+        <Class IRI="#Dizziness"/>
+        <Class IRI="#Fatigue"/>
+        <Class IRI="#Headache"/>
+        <Class IRI="#HotFlashes"/>
+        <Class IRI="#Indigestion"/>
+        <Class IRI="#Insomnia"/>
+        <Class IRI="#Migraine"/>
+        <Class IRI="#Nausea"/>
+        <Class IRI="#PainDuringSex"/>
+        <Class IRI="#PelvicPain"/>
+        <Class IRI="#SexDrive"/>
+        <Class IRI="#Sick"/>
+        <Class IRI="#SoreBreasts"/>
+        <Class IRI="#VaginalPain"/>
+    </DisjointUnion>
+    <DisjointUnion>
+        <Class IRI="#Depressed"/>
+        <Class IRI="#Angry"/>
+        <Class IRI="#Anxious"/>
+        <Class IRI="#Calm"/>
+        <Class IRI="#Depressed"/>
+        <Class IRI="#Emotional"/>
+        <Class IRI="#Energetic"/>
+        <Class IRI="#Exited"/>
+        <Class IRI="#Focused"/>
+        <Class IRI="#Frisky"/>
+        <Class IRI="#Frustated"/>
+        <Class IRI="#Happy"/>
+        <Class IRI="#InLove"/>
+        <Class IRI="#Irritable"/>
+        <Class IRI="#Moody"/>
+    </DisjointUnion>
+    <DisjointUnion>
+        <Class IRI="#Diarrhea"/>
+        <Class IRI="#Acne"/>
+        <Class IRI="#Appetite"/>
+        <Class IRI="#Backache"/>
+        <Class IRI="#Bloating"/>
+        <Class IRI="#Constipation"/>
+        <Class IRI="#Cramps"/>
+        <Class IRI="#Diarrhea"/>
+        <Class IRI="#Dizziness"/>
+        <Class IRI="#Fatigue"/>
+        <Class IRI="#Headache"/>
+        <Class IRI="#HotFlashes"/>
+        <Class IRI="#Indigestion"/>
+        <Class IRI="#Insomnia"/>
+        <Class IRI="#Migraine"/>
+        <Class IRI="#Nausea"/>
+        <Class IRI="#PainDuringSex"/>
+        <Class IRI="#PelvicPain"/>
+        <Class IRI="#SexDrive"/>
+        <Class IRI="#Sick"/>
+        <Class IRI="#SoreBreasts"/>
+        <Class IRI="#VaginalPain"/>
+    </DisjointUnion>
+    <DisjointUnion>
+        <Class IRI="#Dizziness"/>
+        <Class IRI="#Acne"/>
+        <Class IRI="#Appetite"/>
+        <Class IRI="#Backache"/>
+        <Class IRI="#Bloating"/>
+        <Class IRI="#Constipation"/>
+        <Class IRI="#Cramps"/>
+        <Class IRI="#Diarrhea"/>
+        <Class IRI="#Dizziness"/>
+        <Class IRI="#Fatigue"/>
+        <Class IRI="#Headache"/>
+        <Class IRI="#HotFlashes"/>
+        <Class IRI="#Indigestion"/>
+        <Class IRI="#Insomnia"/>
+        <Class IRI="#Migraine"/>
+        <Class IRI="#Nausea"/>
+        <Class IRI="#PainDuringSex"/>
+        <Class IRI="#PelvicPain"/>
+        <Class IRI="#SexDrive"/>
+        <Class IRI="#Sick"/>
+        <Class IRI="#SoreBreasts"/>
+        <Class IRI="#VaginalPain"/>
+    </DisjointUnion>
+    <DisjointUnion>
+        <Class IRI="#Emotional"/>
+        <Class IRI="#Angry"/>
+        <Class IRI="#Anxious"/>
+        <Class IRI="#Calm"/>
+        <Class IRI="#Depressed"/>
+        <Class IRI="#Emotional"/>
+        <Class IRI="#Energetic"/>
+        <Class IRI="#Exited"/>
+        <Class IRI="#Focused"/>
+        <Class IRI="#Frisky"/>
+        <Class IRI="#Frustated"/>
+        <Class IRI="#Happy"/>
+        <Class IRI="#InLove"/>
+        <Class IRI="#Irritable"/>
+        <Class IRI="#Moody"/>
+    </DisjointUnion>
+    <DisjointUnion>
+        <Class IRI="#Energetic"/>
+        <Class IRI="#Angry"/>
+        <Class IRI="#Anxious"/>
+        <Class IRI="#Calm"/>
+        <Class IRI="#Depressed"/>
+        <Class IRI="#Emotional"/>
+        <Class IRI="#Energetic"/>
+        <Class IRI="#Exited"/>
+        <Class IRI="#Focused"/>
+        <Class IRI="#Frisky"/>
+        <Class IRI="#Frustated"/>
+        <Class IRI="#Happy"/>
+        <Class IRI="#InLove"/>
+        <Class IRI="#Irritable"/>
+        <Class IRI="#Moody"/>
+    </DisjointUnion>
+    <DisjointUnion>
+        <Class IRI="#Exited"/>
+        <Class IRI="#Angry"/>
+        <Class IRI="#Anxious"/>
+        <Class IRI="#Calm"/>
+        <Class IRI="#Depressed"/>
+        <Class IRI="#Emotional"/>
+        <Class IRI="#Energetic"/>
+        <Class IRI="#Exited"/>
+        <Class IRI="#Focused"/>
+        <Class IRI="#Frisky"/>
+        <Class IRI="#Frustated"/>
+        <Class IRI="#Happy"/>
+        <Class IRI="#InLove"/>
+        <Class IRI="#Irritable"/>
+        <Class IRI="#Moody"/>
+    </DisjointUnion>
+    <DisjointUnion>
+        <Class IRI="#Fatigue"/>
+        <Class IRI="#Acne"/>
+        <Class IRI="#Appetite"/>
+        <Class IRI="#Backache"/>
+        <Class IRI="#Bloating"/>
+        <Class IRI="#Constipation"/>
+        <Class IRI="#Cramps"/>
+        <Class IRI="#Diarrhea"/>
+        <Class IRI="#Dizziness"/>
+        <Class IRI="#Fatigue"/>
+        <Class IRI="#Headache"/>
+        <Class IRI="#HotFlashes"/>
+        <Class IRI="#Indigestion"/>
+        <Class IRI="#Insomnia"/>
+        <Class IRI="#Migraine"/>
+        <Class IRI="#Nausea"/>
+        <Class IRI="#PainDuringSex"/>
+        <Class IRI="#PelvicPain"/>
+        <Class IRI="#SexDrive"/>
+        <Class IRI="#Sick"/>
+        <Class IRI="#SoreBreasts"/>
+        <Class IRI="#VaginalPain"/>
+    </DisjointUnion>
+    <DisjointUnion>
+        <Class IRI="#Focused"/>
+        <Class IRI="#Angry"/>
+        <Class IRI="#Anxious"/>
+        <Class IRI="#Calm"/>
+        <Class IRI="#Depressed"/>
+        <Class IRI="#Emotional"/>
+        <Class IRI="#Energetic"/>
+        <Class IRI="#Exited"/>
+        <Class IRI="#Focused"/>
+        <Class IRI="#Frisky"/>
+        <Class IRI="#Frustated"/>
+        <Class IRI="#Happy"/>
+        <Class IRI="#InLove"/>
+        <Class IRI="#Irritable"/>
+        <Class IRI="#Moody"/>
+    </DisjointUnion>
+    <DisjointUnion>
+        <Class IRI="#Frisky"/>
+        <Class IRI="#Angry"/>
+        <Class IRI="#Anxious"/>
+        <Class IRI="#Calm"/>
+        <Class IRI="#Depressed"/>
+        <Class IRI="#Emotional"/>
+        <Class IRI="#Energetic"/>
+        <Class IRI="#Exited"/>
+        <Class IRI="#Focused"/>
+        <Class IRI="#Frisky"/>
+        <Class IRI="#Frustated"/>
+        <Class IRI="#Happy"/>
+        <Class IRI="#InLove"/>
+        <Class IRI="#Irritable"/>
+        <Class IRI="#Moody"/>
+    </DisjointUnion>
+    <DisjointUnion>
+        <Class IRI="#Frustated"/>
+        <Class IRI="#Angry"/>
+        <Class IRI="#Anxious"/>
+        <Class IRI="#Calm"/>
+        <Class IRI="#Depressed"/>
+        <Class IRI="#Emotional"/>
+        <Class IRI="#Energetic"/>
+        <Class IRI="#Exited"/>
+        <Class IRI="#Focused"/>
+        <Class IRI="#Frisky"/>
+        <Class IRI="#Frustated"/>
+        <Class IRI="#Happy"/>
+        <Class IRI="#InLove"/>
+        <Class IRI="#Irritable"/>
+        <Class IRI="#Moody"/>
+    </DisjointUnion>
+    <DisjointUnion>
+        <Class IRI="#Happy"/>
+        <Class IRI="#Angry"/>
+        <Class IRI="#Anxious"/>
+        <Class IRI="#Calm"/>
+        <Class IRI="#Depressed"/>
+        <Class IRI="#Emotional"/>
+        <Class IRI="#Energetic"/>
+        <Class IRI="#Exited"/>
+        <Class IRI="#Focused"/>
+        <Class IRI="#Frisky"/>
+        <Class IRI="#Frustated"/>
+        <Class IRI="#Happy"/>
+        <Class IRI="#InLove"/>
+        <Class IRI="#Irritable"/>
+        <Class IRI="#Moody"/>
+    </DisjointUnion>
+    <DisjointUnion>
+        <Class IRI="#Headache"/>
+        <Class IRI="#Acne"/>
+        <Class IRI="#Appetite"/>
+        <Class IRI="#Backache"/>
+        <Class IRI="#Bloating"/>
+        <Class IRI="#Constipation"/>
+        <Class IRI="#Cramps"/>
+        <Class IRI="#Diarrhea"/>
+        <Class IRI="#Dizziness"/>
+        <Class IRI="#Fatigue"/>
+        <Class IRI="#Headache"/>
+        <Class IRI="#HotFlashes"/>
+        <Class IRI="#Indigestion"/>
+        <Class IRI="#Insomnia"/>
+        <Class IRI="#Migraine"/>
+        <Class IRI="#Nausea"/>
+        <Class IRI="#PainDuringSex"/>
+        <Class IRI="#PelvicPain"/>
+        <Class IRI="#SexDrive"/>
+        <Class IRI="#Sick"/>
+        <Class IRI="#SoreBreasts"/>
+        <Class IRI="#VaginalPain"/>
+    </DisjointUnion>
+    <DisjointUnion>
+        <Class IRI="#HotFlashes"/>
+        <Class IRI="#Acne"/>
+        <Class IRI="#Appetite"/>
+        <Class IRI="#Backache"/>
+        <Class IRI="#Bloating"/>
+        <Class IRI="#Constipation"/>
+        <Class IRI="#Cramps"/>
+        <Class IRI="#Diarrhea"/>
+        <Class IRI="#Dizziness"/>
+        <Class IRI="#Fatigue"/>
+        <Class IRI="#Headache"/>
+        <Class IRI="#HotFlashes"/>
+        <Class IRI="#Indigestion"/>
+        <Class IRI="#Insomnia"/>
+        <Class IRI="#Migraine"/>
+        <Class IRI="#Nausea"/>
+        <Class IRI="#PainDuringSex"/>
+        <Class IRI="#PelvicPain"/>
+        <Class IRI="#SexDrive"/>
+        <Class IRI="#Sick"/>
+        <Class IRI="#SoreBreasts"/>
+        <Class IRI="#VaginalPain"/>
+    </DisjointUnion>
+    <DisjointUnion>
+        <Class IRI="#InLove"/>
+        <Class IRI="#Angry"/>
+        <Class IRI="#Anxious"/>
+        <Class IRI="#Calm"/>
+        <Class IRI="#Depressed"/>
+        <Class IRI="#Emotional"/>
+        <Class IRI="#Energetic"/>
+        <Class IRI="#Exited"/>
+        <Class IRI="#Focused"/>
+        <Class IRI="#Frisky"/>
+        <Class IRI="#Frustated"/>
+        <Class IRI="#Happy"/>
+        <Class IRI="#InLove"/>
+        <Class IRI="#Irritable"/>
+        <Class IRI="#Moody"/>
+    </DisjointUnion>
+    <DisjointUnion>
+        <Class IRI="#Indigestion"/>
+        <Class IRI="#Acne"/>
+        <Class IRI="#Appetite"/>
+        <Class IRI="#Backache"/>
+        <Class IRI="#Bloating"/>
+        <Class IRI="#Constipation"/>
+        <Class IRI="#Cramps"/>
+        <Class IRI="#Diarrhea"/>
+        <Class IRI="#Dizziness"/>
+        <Class IRI="#Fatigue"/>
+        <Class IRI="#Headache"/>
+        <Class IRI="#HotFlashes"/>
+        <Class IRI="#Indigestion"/>
+        <Class IRI="#Insomnia"/>
+        <Class IRI="#Migraine"/>
+        <Class IRI="#Nausea"/>
+        <Class IRI="#PainDuringSex"/>
+        <Class IRI="#PelvicPain"/>
+        <Class IRI="#SexDrive"/>
+        <Class IRI="#Sick"/>
+        <Class IRI="#SoreBreasts"/>
+        <Class IRI="#VaginalPain"/>
+    </DisjointUnion>
+    <DisjointUnion>
+        <Class IRI="#Insomnia"/>
+        <Class IRI="#Acne"/>
+        <Class IRI="#Appetite"/>
+        <Class IRI="#Backache"/>
+        <Class IRI="#Bloating"/>
+        <Class IRI="#Constipation"/>
+        <Class IRI="#Cramps"/>
+        <Class IRI="#Diarrhea"/>
+        <Class IRI="#Dizziness"/>
+        <Class IRI="#Fatigue"/>
+        <Class IRI="#Headache"/>
+        <Class IRI="#HotFlashes"/>
+        <Class IRI="#Indigestion"/>
+        <Class IRI="#Insomnia"/>
+        <Class IRI="#Migraine"/>
+        <Class IRI="#Nausea"/>
+        <Class IRI="#PainDuringSex"/>
+        <Class IRI="#PelvicPain"/>
+        <Class IRI="#SexDrive"/>
+        <Class IRI="#Sick"/>
+        <Class IRI="#SoreBreasts"/>
+        <Class IRI="#VaginalPain"/>
+    </DisjointUnion>
+    <DisjointUnion>
+        <Class IRI="#Irritable"/>
+        <Class IRI="#Angry"/>
+        <Class IRI="#Anxious"/>
+        <Class IRI="#Calm"/>
+        <Class IRI="#Depressed"/>
+        <Class IRI="#Emotional"/>
+        <Class IRI="#Energetic"/>
+        <Class IRI="#Exited"/>
+        <Class IRI="#Focused"/>
+        <Class IRI="#Frisky"/>
+        <Class IRI="#Frustated"/>
+        <Class IRI="#Happy"/>
+        <Class IRI="#InLove"/>
+        <Class IRI="#Irritable"/>
+        <Class IRI="#Moody"/>
+    </DisjointUnion>
+    <DisjointUnion>
+        <Class IRI="#Migraine"/>
+        <Class IRI="#Acne"/>
+        <Class IRI="#Appetite"/>
+        <Class IRI="#Backache"/>
+        <Class IRI="#Bloating"/>
+        <Class IRI="#Constipation"/>
+        <Class IRI="#Cramps"/>
+        <Class IRI="#Diarrhea"/>
+        <Class IRI="#Dizziness"/>
+        <Class IRI="#Fatigue"/>
+        <Class IRI="#Headache"/>
+        <Class IRI="#HotFlashes"/>
+        <Class IRI="#Indigestion"/>
+        <Class IRI="#Insomnia"/>
+        <Class IRI="#Migraine"/>
+        <Class IRI="#Nausea"/>
+        <Class IRI="#PainDuringSex"/>
+        <Class IRI="#PelvicPain"/>
+        <Class IRI="#SexDrive"/>
+        <Class IRI="#Sick"/>
+        <Class IRI="#SoreBreasts"/>
+        <Class IRI="#VaginalPain"/>
+    </DisjointUnion>
+    <DisjointUnion>
+        <Class IRI="#Moody"/>
+        <Class IRI="#Anxious"/>
+        <Class IRI="#Calm"/>
+        <Class IRI="#Depressed"/>
+        <Class IRI="#Emotional"/>
+        <Class IRI="#Energetic"/>
+        <Class IRI="#Exited"/>
+        <Class IRI="#Focused"/>
+        <Class IRI="#Frisky"/>
+        <Class IRI="#Frustated"/>
+        <Class IRI="#Happy"/>
+        <Class IRI="#InLove"/>
+        <Class IRI="#Irritable"/>
+        <Class IRI="#Moody"/>
+    </DisjointUnion>
+    <DisjointUnion>
+        <Class IRI="#Nausea"/>
+        <Class IRI="#Acne"/>
+        <Class IRI="#Appetite"/>
+        <Class IRI="#Backache"/>
+        <Class IRI="#Bloating"/>
+        <Class IRI="#Constipation"/>
+        <Class IRI="#Cramps"/>
+        <Class IRI="#Diarrhea"/>
+        <Class IRI="#Dizziness"/>
+        <Class IRI="#Fatigue"/>
+        <Class IRI="#Headache"/>
+        <Class IRI="#HotFlashes"/>
+        <Class IRI="#Indigestion"/>
+        <Class IRI="#Insomnia"/>
+        <Class IRI="#Migraine"/>
+        <Class IRI="#Nausea"/>
+        <Class IRI="#PainDuringSex"/>
+        <Class IRI="#PelvicPain"/>
+        <Class IRI="#SexDrive"/>
+        <Class IRI="#Sick"/>
+        <Class IRI="#SoreBreasts"/>
+        <Class IRI="#VaginalPain"/>
+    </DisjointUnion>
+    <DisjointUnion>
+        <Class IRI="#PainDuringSex"/>
+        <Class IRI="#Acne"/>
+        <Class IRI="#Appetite"/>
+        <Class IRI="#Backache"/>
+        <Class IRI="#Bloating"/>
+        <Class IRI="#Constipation"/>
+        <Class IRI="#Cramps"/>
+        <Class IRI="#Diarrhea"/>
+        <Class IRI="#Dizziness"/>
+        <Class IRI="#Fatigue"/>
+        <Class IRI="#Headache"/>
+        <Class IRI="#HotFlashes"/>
+        <Class IRI="#Indigestion"/>
+        <Class IRI="#Insomnia"/>
+        <Class IRI="#Migraine"/>
+        <Class IRI="#Nausea"/>
+        <Class IRI="#PainDuringSex"/>
+        <Class IRI="#PelvicPain"/>
+        <Class IRI="#SexDrive"/>
+        <Class IRI="#Sick"/>
+        <Class IRI="#SoreBreasts"/>
+        <Class IRI="#VaginalPain"/>
+    </DisjointUnion>
+    <DisjointUnion>
+        <Class IRI="#PelvicPain"/>
+        <Class IRI="#Acne"/>
+        <Class IRI="#Appetite"/>
+        <Class IRI="#Backache"/>
+        <Class IRI="#Bloating"/>
+        <Class IRI="#Constipation"/>
+        <Class IRI="#Cramps"/>
+        <Class IRI="#Diarrhea"/>
+        <Class IRI="#Dizziness"/>
+        <Class IRI="#Fatigue"/>
+        <Class IRI="#Headache"/>
+        <Class IRI="#HotFlashes"/>
+        <Class IRI="#Indigestion"/>
+        <Class IRI="#Insomnia"/>
+        <Class IRI="#Migraine"/>
+        <Class IRI="#Nausea"/>
+        <Class IRI="#PainDuringSex"/>
+        <Class IRI="#PelvicPain"/>
+        <Class IRI="#SexDrive"/>
+        <Class IRI="#Sick"/>
+        <Class IRI="#SoreBreasts"/>
+        <Class IRI="#VaginalPain"/>
+    </DisjointUnion>
+    <DisjointUnion>
+        <Class IRI="#SexDrive"/>
+        <Class IRI="#Acne"/>
+        <Class IRI="#Appetite"/>
+        <Class IRI="#Backache"/>
+        <Class IRI="#Bloating"/>
+        <Class IRI="#Constipation"/>
+        <Class IRI="#Cramps"/>
+        <Class IRI="#Diarrhea"/>
+        <Class IRI="#Dizziness"/>
+        <Class IRI="#Fatigue"/>
+        <Class IRI="#Headache"/>
+        <Class IRI="#HotFlashes"/>
+        <Class IRI="#Indigestion"/>
+        <Class IRI="#Insomnia"/>
+        <Class IRI="#Migraine"/>
+        <Class IRI="#Nausea"/>
+        <Class IRI="#PainDuringSex"/>
+        <Class IRI="#PelvicPain"/>
+        <Class IRI="#SexDrive"/>
+        <Class IRI="#Sick"/>
+        <Class IRI="#SoreBreasts"/>
+        <Class IRI="#VaginalPain"/>
+    </DisjointUnion>
+    <DisjointUnion>
+        <Class IRI="#Sick"/>
+        <Class IRI="#Acne"/>
+        <Class IRI="#Appetite"/>
+        <Class IRI="#Backache"/>
+        <Class IRI="#Bloating"/>
+        <Class IRI="#Constipation"/>
+        <Class IRI="#Cramps"/>
+        <Class IRI="#Diarrhea"/>
+        <Class IRI="#Dizziness"/>
+        <Class IRI="#Fatigue"/>
+        <Class IRI="#Headache"/>
+        <Class IRI="#HotFlashes"/>
+        <Class IRI="#Indigestion"/>
+        <Class IRI="#Insomnia"/>
+        <Class IRI="#Migraine"/>
+        <Class IRI="#Nausea"/>
+        <Class IRI="#PainDuringSex"/>
+        <Class IRI="#PelvicPain"/>
+        <Class IRI="#SexDrive"/>
+        <Class IRI="#Sick"/>
+        <Class IRI="#SoreBreasts"/>
+        <Class IRI="#VaginalPain"/>
+    </DisjointUnion>
+    <DisjointUnion>
+        <Class IRI="#SoreBreasts"/>
+        <Class IRI="#Acne"/>
+        <Class IRI="#Appetite"/>
+        <Class IRI="#Backache"/>
+        <Class IRI="#Bloating"/>
+        <Class IRI="#Constipation"/>
+        <Class IRI="#Cramps"/>
+        <Class IRI="#Diarrhea"/>
+        <Class IRI="#Dizziness"/>
+        <Class IRI="#Fatigue"/>
+        <Class IRI="#Headache"/>
+        <Class IRI="#HotFlashes"/>
+        <Class IRI="#Indigestion"/>
+        <Class IRI="#Insomnia"/>
+        <Class IRI="#Migraine"/>
+        <Class IRI="#Nausea"/>
+        <Class IRI="#PainDuringSex"/>
+        <Class IRI="#PelvicPain"/>
+        <Class IRI="#SexDrive"/>
+        <Class IRI="#Sick"/>
+        <Class IRI="#SoreBreasts"/>
+        <Class IRI="#VaginalPain"/>
+    </DisjointUnion>
+    <DisjointUnion>
+        <Class IRI="#VaginalPain"/>
+        <Class IRI="#Acne"/>
+        <Class IRI="#Appetite"/>
+        <Class IRI="#Backache"/>
+        <Class IRI="#Bloating"/>
+        <Class IRI="#Constipation"/>
+        <Class IRI="#Cramps"/>
+        <Class IRI="#Diarrhea"/>
+        <Class IRI="#Dizziness"/>
+        <Class IRI="#Fatigue"/>
+        <Class IRI="#Headache"/>
+        <Class IRI="#HotFlashes"/>
+        <Class IRI="#Indigestion"/>
+        <Class IRI="#Insomnia"/>
+        <Class IRI="#Migraine"/>
+        <Class IRI="#Nausea"/>
+        <Class IRI="#PainDuringSex"/>
+        <Class IRI="#PelvicPain"/>
+        <Class IRI="#SexDrive"/>
+        <Class IRI="#Sick"/>
+        <Class IRI="#SoreBreasts"/>
+        <Class IRI="#VaginalPain"/>
+    </DisjointUnion>
+    <ClassAssertion>
+        <Class IRI="#UserWithMigraine"/>
+        <NamedIndividual IRI="#eva"/>
+    </ClassAssertion>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasMoodValue"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasSymptomValue"/>
+    </FunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDiagnosisMood"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasDiagnosisMood"/>
+            <Class IRI="#User"/>
+        </ObjectAllValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDiagnosisSymptom"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasDiagnosisSymptom"/>
+            <Class IRI="#User"/>
+        </ObjectAllValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMoodValue"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasMoodValue"/>
+            <Class IRI="#MoodRelation"/>
+        </ObjectAllValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSymptomValue"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasSymptomValue"/>
+            <Class IRI="#SymptomRelation"/>
+        </ObjectAllValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasDiagnosisSymptom"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasDiagnosisSymptom"/>
+            <Class IRI="#SymptomRelation"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMoodValue"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasMoodValue"/>
+            <Class IRI="#MoodFeature"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSymptomValue"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSymptomValue"/>
+            <Class IRI="#SymptomValue"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
