@@ -14,55 +14,55 @@
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Annotation>
         <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#testCase"/>
-        <AnonymousIndividual nodeID="_:genid2147483648"/>
+        <AnonymousIndividual nodeID="_:genid2147483713"/>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#testCase"/>
-        <AnonymousIndividual nodeID="_:genid2147483649"/>
+        <AnonymousIndividual nodeID="_:genid2147483714"/>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#testCase"/>
-        <AnonymousIndividual nodeID="_:genid2147483650"/>
+        <AnonymousIndividual nodeID="_:genid2147483715"/>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#testCase"/>
-        <AnonymousIndividual nodeID="_:genid2147483651"/>
+        <AnonymousIndividual nodeID="_:genid2147483716"/>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#testCase"/>
-        <AnonymousIndividual nodeID="_:genid2147483652"/>
+        <AnonymousIndividual nodeID="_:genid2147483717"/>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#testCase"/>
-        <AnonymousIndividual nodeID="_:genid2147483653"/>
+        <AnonymousIndividual nodeID="_:genid2147483718"/>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#testCase"/>
-        <AnonymousIndividual nodeID="_:genid2147483654"/>
+        <AnonymousIndividual nodeID="_:genid2147483719"/>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#testCase"/>
-        <AnonymousIndividual nodeID="_:genid2147483655"/>
+        <AnonymousIndividual nodeID="_:genid2147483720"/>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#testCase"/>
-        <AnonymousIndividual nodeID="_:genid2147483656"/>
+        <AnonymousIndividual nodeID="_:genid2147483721"/>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#testCase"/>
-        <AnonymousIndividual nodeID="_:genid2147483657"/>
+        <AnonymousIndividual nodeID="_:genid2147483722"/>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#testCase"/>
-        <AnonymousIndividual nodeID="_:genid2147483658"/>
+        <AnonymousIndividual nodeID="_:genid2147483723"/>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#testCase"/>
-        <AnonymousIndividual nodeID="_:genid2147483659"/>
+        <AnonymousIndividual nodeID="_:genid2147483724"/>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#testCase"/>
-        <AnonymousIndividual nodeID="_:genid2147483660"/>
+        <AnonymousIndividual nodeID="_:genid2147483725"/>
     </Annotation>
     <Declaration>
         <Class IRI="#Acne"/>
@@ -71,10 +71,76 @@
         <Class IRI="#Angry"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Anxious"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Appetite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Backache"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bloating"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Calm"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Constipation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cramps"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Depressed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Diarrhea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dizziness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Emotional"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Energetic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Excited"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fatigue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Focused"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Frisky"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Frustated"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Happy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Headache"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HotFlashes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InLove"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Indigestion"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Insomnia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Irritable"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Migraine"/>
@@ -86,10 +152,10 @@
         <Class IRI="#Moderate"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#MoodRelation"/>
+        <Class IRI="#Mood"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#MoodValue"/>
+        <Class IRI="#MoodRelation"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Moody"/>
@@ -98,16 +164,31 @@
         <Class IRI="#Nausea"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#PainDuringSex"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PelvicPain"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Severe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SexDrive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sick"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SoreBreasts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Symptom"/>
     </Declaration>
     <Declaration>
         <Class IRI="#SymptomLevel"/>
     </Declaration>
     <Declaration>
         <Class IRI="#SymptomRelation"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#SymptomValue"/>
     </Declaration>
     <Declaration>
         <Class IRI="#User"/>
@@ -119,16 +200,106 @@
         <Class IRI="#UserAngry"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UserAnxious"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserAppetite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserBackache"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserBloating"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UserCalm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserConstipation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserCramps"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserDepressed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserDiarrhea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserDizziness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserEmotional"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserEnergetic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserExcited"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserFatigue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserFocused"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserFrisky"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserFrustated"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserHappy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserHeadache"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserHotFlashes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserInLove"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserIndigestion"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UserInsomnia"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UserIrritable"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UserMigraine"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UserMoody"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UserNausea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserPainDuringSex"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserPelvicPain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserSexDrive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserSick"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserSoreBreasts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserVaginalPain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VaginalPain"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasDiagnosisMood"/>
@@ -137,13 +308,13 @@
         <ObjectProperty IRI="#hasDiagnosisSymptom"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasMoodValue"/>
+        <ObjectProperty IRI="#hasMood"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSymptom"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasSymptomLevel"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasSymptomValue"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="ç..#hasMoodDate"/>
@@ -296,11 +467,48 @@
         <AnnotationProperty abbreviatedIRI="rdf:value"/>
     </Declaration>
     <EquivalentClasses>
-        <Class IRI="#MoodValue"/>
+        <Class IRI="#Mood"/>
         <ObjectUnionOf>
             <Class IRI="#Angry"/>
+            <Class IRI="#Anxious"/>
             <Class IRI="#Calm"/>
+            <Class IRI="#Depressed"/>
+            <Class IRI="#Emotional"/>
+            <Class IRI="#Energetic"/>
+            <Class IRI="#Excited"/>
+            <Class IRI="#Focused"/>
+            <Class IRI="#Frisky"/>
+            <Class IRI="#Frustated"/>
+            <Class IRI="#Happy"/>
+            <Class IRI="#InLove"/>
+            <Class IRI="#Irritable"/>
             <Class IRI="#Moody"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Symptom"/>
+        <ObjectUnionOf>
+            <Class IRI="#Acne"/>
+            <Class IRI="#Appetite"/>
+            <Class IRI="#Backache"/>
+            <Class IRI="#Bloating"/>
+            <Class IRI="#Constipation"/>
+            <Class IRI="#Cramps"/>
+            <Class IRI="#Diarrhea"/>
+            <Class IRI="#Dizziness"/>
+            <Class IRI="#Fatigue"/>
+            <Class IRI="#Headache"/>
+            <Class IRI="#HotFlashes"/>
+            <Class IRI="#Indigestion"/>
+            <Class IRI="#Insomnia"/>
+            <Class IRI="#Migraine"/>
+            <Class IRI="#Nausea"/>
+            <Class IRI="#PainDuringSex"/>
+            <Class IRI="#PelvicPain"/>
+            <Class IRI="#SexDrive"/>
+            <Class IRI="#Sick"/>
+            <Class IRI="#SoreBreasts"/>
+            <Class IRI="#VaginalPain"/>
         </ObjectUnionOf>
     </EquivalentClasses>
     <EquivalentClasses>
@@ -312,20 +520,11 @@
         </ObjectUnionOf>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="#SymptomValue"/>
-        <ObjectUnionOf>
-            <Class IRI="#Acne"/>
-            <Class IRI="#Insomnia"/>
-            <Class IRI="#Migraine"/>
-            <Class IRI="#Nausea"/>
-        </ObjectUnionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
         <Class IRI="#UserAcne"/>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptomValue"/>
+                <ObjectProperty IRI="#hasSymptom"/>
                 <Class IRI="#Acne"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -335,8 +534,48 @@
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasMoodValue"/>
+                <ObjectProperty IRI="#hasMood"/>
                 <Class IRI="#Angry"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserAnxious"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasMood"/>
+                <Class IRI="#Anxious"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserAppetite"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Appetite"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserBackache"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Backache"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserBloating"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Bloating"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
     </EquivalentClasses>
@@ -345,8 +584,178 @@
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasMoodValue"/>
+                <ObjectProperty IRI="#hasMood"/>
                 <Class IRI="#Calm"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserConstipation"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Constipation"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserCramps"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Cramps"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserDepressed"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasMood"/>
+                <Class IRI="#Emotional"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserDiarrhea"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Diarrhea"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserDizziness"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Dizziness"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserEmotional"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasMood"/>
+                <Class IRI="#Emotional"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserEnergetic"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasMood"/>
+                <Class IRI="#Energetic"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserExcited"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasMood"/>
+                <Class IRI="#Excited"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserFatigue"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Fatigue"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserFocused"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasMood"/>
+                <Class IRI="#Focused"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserFrisky"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasMood"/>
+                <Class IRI="#Frisky"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserFrustated"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasMood"/>
+                <Class IRI="#Frustated"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserHappy"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasMood"/>
+                <Class IRI="#Happy"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserHeadache"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Headache"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserHotFlashes"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#HotFlashes"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserInLove"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasMood"/>
+                <Class IRI="#InLove"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserIndigestion"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Indigestion"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
     </EquivalentClasses>
@@ -355,8 +764,18 @@
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptomValue"/>
+                <ObjectProperty IRI="#hasSymptom"/>
                 <Class IRI="#Insomnia"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserIrritable"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasMood"/>
+                <Class IRI="#Irritable"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
     </EquivalentClasses>
@@ -365,8 +784,18 @@
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptomValue"/>
+                <ObjectProperty IRI="#hasSymptom"/>
                 <Class IRI="#Migraine"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserMoody"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasMood"/>
+                <Class IRI="#Moody"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
     </EquivalentClasses>
@@ -375,30 +804,178 @@
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptomValue"/>
+                <ObjectProperty IRI="#hasSymptom"/>
                 <Class IRI="#Nausea"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserPainDuringSex"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#PainDuringSex"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserPelvicPain"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#PelvicPain"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserSexDrive"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#SexDrive"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserSick"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Sick"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserSoreBreasts"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#SoreBreasts"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserVaginalPain"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#VaginalPain"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <SubClassOf>
         <Class IRI="#Acne"/>
-        <Class IRI="#SymptomValue"/>
+        <Class IRI="#Symptom"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Angry"/>
-        <Class IRI="#MoodValue"/>
+        <Class IRI="#Mood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anxious"/>
+        <Class IRI="#Mood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Appetite"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Backache"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bloating"/>
+        <Class IRI="#Symptom"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Calm"/>
-        <Class IRI="#MoodValue"/>
+        <Class IRI="#Mood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Constipation"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cramps"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Depressed"/>
+        <Class IRI="#Mood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diarrhea"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dizziness"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Emotional"/>
+        <Class IRI="#Mood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Energetic"/>
+        <Class IRI="#Mood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Excited"/>
+        <Class IRI="#Mood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fatigue"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Focused"/>
+        <Class IRI="#Mood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Frisky"/>
+        <Class IRI="#Mood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Frustated"/>
+        <Class IRI="#Mood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Happy"/>
+        <Class IRI="#Mood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Headache"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HotFlashes"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InLove"/>
+        <Class IRI="#Mood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Indigestion"/>
+        <Class IRI="#Symptom"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Insomnia"/>
-        <Class IRI="#SymptomValue"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Irritable"/>
+        <Class IRI="#Mood"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Migraine"/>
-        <Class IRI="#SymptomValue"/>
+        <Class IRI="#Symptom"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Mild"/>
@@ -411,34 +988,54 @@
     <SubClassOf>
         <Class IRI="#MoodRelation"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#hasMoodValue"/>
-            <Class IRI="#MoodValue"/>
+            <ObjectProperty IRI="#hasMood"/>
+            <Class IRI="#Mood"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Moody"/>
-        <Class IRI="#MoodValue"/>
+        <Class IRI="#Mood"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Nausea"/>
-        <Class IRI="#SymptomValue"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PainDuringSex"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PelvicPain"/>
+        <Class IRI="#Symptom"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Severe"/>
         <Class IRI="#SymptomLevel"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#SexDrive"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sick"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SoreBreasts"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#SymptomRelation"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#hasSymptomLevel"/>
-            <Class IRI="#SymptomLevel"/>
+            <ObjectProperty IRI="#hasSymptom"/>
+            <Class IRI="#Symptom"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SymptomRelation"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#hasSymptomValue"/>
-            <Class IRI="#SymptomValue"/>
+            <ObjectProperty IRI="#hasSymptomLevel"/>
+            <Class IRI="#SymptomLevel"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -455,34 +1052,164 @@
             <Class IRI="#SymptomRelation"/>
         </ObjectAllValuesFrom>
     </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserAnxious"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserAppetite"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserBackache"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserBloating"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserConstipation"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserCramps"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserDepressed"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserDiarrhea"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserDizziness"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserEmotional"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserEnergetic"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserExcited"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserFatigue"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserFocused"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserFrisky"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserFrustated"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserHappy"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserHeadache"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserHotFlashes"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserInLove"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserIndigestion"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserIrritable"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserMoody"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserPainDuringSex"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserPelvicPain"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserSexDrive"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserSick"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserSoreBreasts"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserVaginalPain"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VaginalPain"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
     <DisjointClasses>
         <Class IRI="#Acne"/>
+        <Class IRI="#Appetite"/>
+        <Class IRI="#Backache"/>
+        <Class IRI="#Bloating"/>
+        <Class IRI="#Constipation"/>
+        <Class IRI="#Cramps"/>
+        <Class IRI="#Diarrhea"/>
+        <Class IRI="#Dizziness"/>
+        <Class IRI="#Fatigue"/>
+        <Class IRI="#Headache"/>
+        <Class IRI="#HotFlashes"/>
+        <Class IRI="#Indigestion"/>
         <Class IRI="#Insomnia"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#Acne"/>
         <Class IRI="#Migraine"/>
         <Class IRI="#Nausea"/>
+        <Class IRI="#PainDuringSex"/>
+        <Class IRI="#PelvicPain"/>
+        <Class IRI="#SexDrive"/>
+        <Class IRI="#Sick"/>
+        <Class IRI="#SoreBreasts"/>
+        <Class IRI="#VaginalPain"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#Angry"/>
+        <Class IRI="#Anxious"/>
         <Class IRI="#Calm"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#Angry"/>
+        <Class IRI="#Depressed"/>
+        <Class IRI="#Emotional"/>
+        <Class IRI="#Energetic"/>
+        <Class IRI="#Excited"/>
+        <Class IRI="#Focused"/>
+        <Class IRI="#Frisky"/>
+        <Class IRI="#Frustated"/>
+        <Class IRI="#Happy"/>
+        <Class IRI="#InLove"/>
+        <Class IRI="#Irritable"/>
         <Class IRI="#Moody"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#Calm"/>
-        <Class IRI="#Moody"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#Insomnia"/>
-        <Class IRI="#Migraine"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#Insomnia"/>
-        <Class IRI="#Nausea"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#Mild"/>
@@ -500,7 +1227,7 @@
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptomValue"/>
+                <ObjectProperty IRI="#hasSymptom"/>
                 <Class IRI="#Migraine"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -522,7 +1249,7 @@
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptomValue"/>
+                <ObjectProperty IRI="#hasSymptom"/>
                 <Class IRI="#Acne"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -532,7 +1259,7 @@
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptomValue"/>
+                <ObjectProperty IRI="#hasSymptom"/>
                 <Class IRI="#Acne"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -542,7 +1269,7 @@
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptomValue"/>
+                <ObjectProperty IRI="#hasSymptom"/>
                 <Class IRI="#Acne"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -552,7 +1279,7 @@
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptomValue"/>
+                <ObjectProperty IRI="#hasSymptom"/>
                 <Class IRI="#Acne"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -562,7 +1289,7 @@
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptomValue"/>
+                <ObjectProperty IRI="#hasSymptom"/>
                 <Class IRI="#Acne"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -572,7 +1299,7 @@
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptomValue"/>
+                <ObjectProperty IRI="#hasSymptom"/>
                 <Class IRI="#Acne"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -582,7 +1309,7 @@
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptomValue"/>
+                <ObjectProperty IRI="#hasSymptom"/>
                 <Class IRI="#Acne"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -592,7 +1319,7 @@
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptomValue"/>
+                <ObjectProperty IRI="#hasSymptom"/>
                 <Class IRI="#Acne"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -602,7 +1329,7 @@
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptomValue"/>
+                <ObjectProperty IRI="#hasSymptom"/>
                 <Class IRI="#Acne"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -612,7 +1339,7 @@
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptomValue"/>
+                <ObjectProperty IRI="#hasSymptom"/>
                 <Class IRI="#Acne"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -622,7 +1349,7 @@
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptomValue"/>
+                <ObjectProperty IRI="#hasSymptom"/>
                 <Class IRI="#Acne"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -632,7 +1359,7 @@
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptomValue"/>
+                <ObjectProperty IRI="#hasSymptom"/>
                 <Class IRI="#Acne"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -642,7 +1369,7 @@
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptomValue"/>
+                <ObjectProperty IRI="#hasSymptom"/>
                 <Class IRI="#Acne"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -652,7 +1379,7 @@
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptomValue"/>
+                <ObjectProperty IRI="#hasSymptom"/>
                 <Class IRI="#Acne"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -662,7 +1389,7 @@
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptomValue"/>
+                <ObjectProperty IRI="#hasSymptom"/>
                 <Class IRI="#Insomnia"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -672,7 +1399,7 @@
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptomValue"/>
+                <ObjectProperty IRI="#hasSymptom"/>
                 <Class IRI="#Migraine"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -682,7 +1409,7 @@
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptomValue"/>
+                <ObjectProperty IRI="#hasSymptom"/>
                 <Class IRI="#Migraine"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -692,7 +1419,7 @@
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptomValue"/>
+                <ObjectProperty IRI="#hasSymptom"/>
                 <Class IRI="#Migraine"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -702,7 +1429,7 @@
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptomValue"/>
+                <ObjectProperty IRI="#hasSymptom"/>
                 <Class IRI="#Migraine"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -712,7 +1439,7 @@
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptomValue"/>
+                <ObjectProperty IRI="#hasSymptom"/>
                 <Class IRI="#Migraine"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -722,7 +1449,7 @@
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptomValue"/>
+                <ObjectProperty IRI="#hasSymptom"/>
                 <Class IRI="#Migraine"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -732,7 +1459,7 @@
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptomValue"/>
+                <ObjectProperty IRI="#hasSymptom"/>
                 <Class IRI="#Migraine"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -742,7 +1469,7 @@
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptomValue"/>
+                <ObjectProperty IRI="#hasSymptom"/>
                 <Class IRI="#Migraine"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -752,7 +1479,7 @@
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptomValue"/>
+                <ObjectProperty IRI="#hasSymptom"/>
                 <Class IRI="#Migraine"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -762,7 +1489,7 @@
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptomValue"/>
+                <ObjectProperty IRI="#hasSymptom"/>
                 <Class IRI="#Migraine"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -772,7 +1499,7 @@
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptomValue"/>
+                <ObjectProperty IRI="#hasSymptom"/>
                 <Class IRI="#Migraine"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -782,7 +1509,7 @@
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptomValue"/>
+                <ObjectProperty IRI="#hasSymptom"/>
                 <Class IRI="#Migraine"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -792,7 +1519,7 @@
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptomValue"/>
+                <ObjectProperty IRI="#hasSymptom"/>
                 <Class IRI="#Migraine"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -802,7 +1529,7 @@
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptomValue"/>
+                <ObjectProperty IRI="#hasSymptom"/>
                 <Class IRI="#Migraine"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -812,7 +1539,7 @@
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptomValue"/>
+                <ObjectProperty IRI="#hasSymptom"/>
                 <Class IRI="#Migraine"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -822,7 +1549,7 @@
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptomValue"/>
+                <ObjectProperty IRI="#hasSymptom"/>
                 <Class IRI="#Migraine"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -832,7 +1559,7 @@
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptomValue"/>
+                <ObjectProperty IRI="#hasSymptom"/>
                 <Class IRI="#Migraine"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -842,7 +1569,7 @@
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptomValue"/>
+                <ObjectProperty IRI="#hasSymptom"/>
                 <Class IRI="#Migraine"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -852,7 +1579,7 @@
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptomValue"/>
+                <ObjectProperty IRI="#hasSymptom"/>
                 <Class IRI="#Migraine"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -862,7 +1589,7 @@
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptomValue"/>
+                <ObjectProperty IRI="#hasSymptom"/>
                 <Class IRI="#Migraine"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -872,7 +1599,7 @@
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptomValue"/>
+                <ObjectProperty IRI="#hasSymptom"/>
                 <Class IRI="#Migraine"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -882,7 +1609,7 @@
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptomValue"/>
+                <ObjectProperty IRI="#hasSymptom"/>
                 <Class IRI="#Migraine"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -892,7 +1619,7 @@
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptomValue"/>
+                <ObjectProperty IRI="#hasSymptom"/>
                 <Class IRI="#Migraine"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -902,7 +1629,7 @@
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptomValue"/>
+                <ObjectProperty IRI="#hasSymptom"/>
                 <Class IRI="#Migraine"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -914,14 +1641,14 @@
         <NamedIndividual IRI="#_evaSymptomRelation"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSymptom"/>
+        <NamedIndividual IRI="#_evaSymptomRelation"/>
+        <NamedIndividual IRI="#_evaHasMigraine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasSymptomLevel"/>
         <NamedIndividual IRI="#_evaSymptomRelation"/>
         <NamedIndividual IRI="#_evaHasSevere"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasSymptomValue"/>
-        <NamedIndividual IRI="#_evaSymptomRelation"/>
-        <NamedIndividual IRI="#_evaHasMigraine"/>
     </ObjectPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="ç..#hasSymptomDate"/>
@@ -935,13 +1662,13 @@
         <ObjectProperty IRI="#hasDiagnosisSymptom"/>
     </FunctionalObjectProperty>
     <FunctionalObjectProperty>
-        <ObjectProperty IRI="#hasMoodValue"/>
+        <ObjectProperty IRI="#hasMood"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasSymptom"/>
     </FunctionalObjectProperty>
     <FunctionalObjectProperty>
         <ObjectProperty IRI="#hasSymptomLevel"/>
-    </FunctionalObjectProperty>
-    <FunctionalObjectProperty>
-        <ObjectProperty IRI="#hasSymptomValue"/>
     </FunctionalObjectProperty>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasDiagnosisMood"/>
@@ -952,15 +1679,15 @@
         <Class IRI="#User"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasMoodValue"/>
+        <ObjectProperty IRI="#hasMood"/>
         <Class IRI="#MoodRelation"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasSymptomLevel"/>
+        <ObjectProperty IRI="#hasSymptom"/>
         <Class IRI="#SymptomRelation"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasSymptomValue"/>
+        <ObjectProperty IRI="#hasSymptomLevel"/>
         <Class IRI="#SymptomRelation"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
@@ -972,16 +1699,16 @@
         <Class IRI="#SymptomRelation"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#hasMoodValue"/>
-        <Class IRI="#MoodValue"/>
+        <ObjectProperty IRI="#hasMood"/>
+        <Class IRI="#Mood"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSymptom"/>
+        <Class IRI="#Symptom"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasSymptomLevel"/>
         <Class IRI="#SymptomLevel"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#hasSymptomValue"/>
-        <Class IRI="#SymptomValue"/>
     </ObjectPropertyRange>
     <FunctionalDataProperty>
         <DataProperty IRI="ç..#hasMoodDate"/>
