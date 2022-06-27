@@ -9,6 +9,9 @@ PREFIX mens:<http://www.semanticweb.org/erika/ontologies/menstrual_cycle#>
 
 
 
+Query DL
+--------------------------------------------
+User and hasSymptomValue some Migraine
 
 ----------------------------------------------------------
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
