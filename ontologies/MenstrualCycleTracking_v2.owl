@@ -14,55 +14,55 @@
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Annotation>
         <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#testCase"/>
-        <AnonymousIndividual nodeID="_:genid2147483713"/>
+        <AnonymousIndividual nodeID="_:genid2147483648"/>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#testCase"/>
-        <AnonymousIndividual nodeID="_:genid2147483714"/>
+        <AnonymousIndividual nodeID="_:genid2147483649"/>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#testCase"/>
-        <AnonymousIndividual nodeID="_:genid2147483715"/>
+        <AnonymousIndividual nodeID="_:genid2147483650"/>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#testCase"/>
-        <AnonymousIndividual nodeID="_:genid2147483716"/>
+        <AnonymousIndividual nodeID="_:genid2147483651"/>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#testCase"/>
-        <AnonymousIndividual nodeID="_:genid2147483717"/>
+        <AnonymousIndividual nodeID="_:genid2147483652"/>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#testCase"/>
-        <AnonymousIndividual nodeID="_:genid2147483718"/>
+        <AnonymousIndividual nodeID="_:genid2147483653"/>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#testCase"/>
-        <AnonymousIndividual nodeID="_:genid2147483719"/>
+        <AnonymousIndividual nodeID="_:genid2147483654"/>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#testCase"/>
-        <AnonymousIndividual nodeID="_:genid2147483720"/>
+        <AnonymousIndividual nodeID="_:genid2147483655"/>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#testCase"/>
-        <AnonymousIndividual nodeID="_:genid2147483721"/>
+        <AnonymousIndividual nodeID="_:genid2147483656"/>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#testCase"/>
-        <AnonymousIndividual nodeID="_:genid2147483722"/>
+        <AnonymousIndividual nodeID="_:genid2147483657"/>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#testCase"/>
-        <AnonymousIndividual nodeID="_:genid2147483723"/>
+        <AnonymousIndividual nodeID="_:genid2147483658"/>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#testCase"/>
-        <AnonymousIndividual nodeID="_:genid2147483724"/>
+        <AnonymousIndividual nodeID="_:genid2147483659"/>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#testCase"/>
-        <AnonymousIndividual nodeID="_:genid2147483725"/>
+        <AnonymousIndividual nodeID="_:genid2147483660"/>
     </Annotation>
     <Declaration>
         <Class IRI="#Acne"/>
@@ -333,6 +333,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#_evaSymptomRelation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_user01"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#_userAcne01"/>
@@ -1244,6 +1247,10 @@
     <ClassAssertion>
         <Class IRI="#SymptomRelation"/>
         <NamedIndividual IRI="#_evaSymptomRelation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#User"/>
+        <NamedIndividual IRI="#_user01"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
