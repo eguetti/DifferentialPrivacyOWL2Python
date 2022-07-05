@@ -12,32 +12,79 @@ PREFIX mens:<http://www.semanticweb.org/erika/ontologies/menstrual_cycle#>
 Query DL
 --------------------------------------------
 User and hasSymptomValue some Migraine
+--------------------------------------------------
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX e:   <http://purl.org/dc/elements/1.1/>
+PREFIX mens:<http://www.semanticweb.org/erika/ontologies/menstrual_cycle#>
+SELECT (COUNT(?ind) AS ?users)  
+	WHERE {
+		?ind rdf:type ?type .
+		OPTIONAL { ?type rdfs:subClassOf  mens:User .}
+		
+		#OPTIONAL { ?ind rdfs:label  ?name.}
+} #ORDER BY ?class
+
+---------------
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX e:   <http://purl.org/dc/elements/1.1/>
+	
+PREFIX mens:<http://www.semanticweb.org/erika/ontologies/menstrual_cycle#>
+
+
+SELECT ?ind 
+	WHERE {
+		?ind rdf:type ?type .
+		OPTIONAL { ?type rdfs:subClassOf  mens:User .}
+
+} #ORDER BY ?class
 
 ----------------------------------------------------------
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX e:   <http://purl.org/dc/elements/1.1/>
+	
 PREFIX mens:<http://www.semanticweb.org/erika/ontologies/menstrual_cycle#>
 
-SELECT  ?symptom ?x  ?p
-WHERE { 
-	?s1 mens:hasDiagnosisSymptom ?symptom.
-	?symptom mens:symptomDate ?p.
 
-	#?s  rdf:type owl:ObjectProperty.
-	#?s1 ?s ?s2.
-	#?symptom mens:hasSymptomDate ?date.
-	#?p mens:hasSymptomValue ?x.	
-	#?o owl:someValuesFrom mens:Insomnia.
-
+SELECT (COUNT(?symptom) AS ?userWithMigraine) 
+	WHERE {
+		?s  mens:hasDiagnosisSymptom   ?r.
+		?r  mens:hasSymptom ?symptom .
+		?symptom owl:someValuesFrom  mens:Migraine.	
 }
+------------------------------------------
 
 
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX e:   <http://purl.org/dc/elements/1.1/>
+	
+PREFIX mens:<http://www.semanticweb.org/erika/ontologies/menstrual_cycle#>
 
 
+SELECT (COUNT(?m) AS ?userWithMigraine) 
+	WHERE {
+		?s  mens:DiagnosisSymptom   ?r.
+		?r  mens:hasSymptom ?m. 
+		?m owl:someValuesFrom mens:Migraine.
+	
+}	
+--------------------------------------------------
+"0"^^<http://www.w3.org/2001/XMLSchema#integer>
+	
 
---------------------------------------------------------
+--------------------------------------------------
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
