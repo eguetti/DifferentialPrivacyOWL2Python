@@ -1275,90 +1275,117 @@
         <Class IRI="#UserMigraine"/>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptomRelation"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Migraine"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="#UserMoody"/>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasMoodRelation"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Moody"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasMoodRelation"/>
+                    <Class IRI="#MoodRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="#UserNausea"/>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptomRelation"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Nausea"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="#UserPainDuringSex"/>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptomRelation"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#PainDuringSex"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="#UserPelvicPain"/>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptomRelation"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#PelvicPain"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="#UserSexDrive"/>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptomRelation"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#SexDrive"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="#UserSick"/>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptomRelation"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Sick"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="#UserSoreBreasts"/>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptomRelation"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#SoreBreasts"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="#UserVaginalPain"/>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptomRelation"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#VaginalPain"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <SubClassOf>
