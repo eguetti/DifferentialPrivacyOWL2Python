@@ -953,8 +953,8 @@
             <ObjectIntersectionOf>
                 <Class IRI="#Angry"/>
                 <ObjectSomeValuesFrom>
-                    <ObjectProperty IRI="#hasSymptomRelation"/>
-                    <Class IRI="#SymptomRelation"/>
+                    <ObjectProperty IRI="#hasMoodRelation"/>
+                    <Class IRI="#MoodRelation"/>
                 </ObjectSomeValuesFrom>
             </ObjectIntersectionOf>
         </ObjectIntersectionOf>
@@ -1015,200 +1015,260 @@
         <Class IRI="#UserCalm"/>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasMoodRelation"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Calm"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasMoodRelation"/>
+                    <Class IRI="#MoodRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="#UserConstipation"/>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptomRelation"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Constipation"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="#UserCramps"/>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptomRelation"/>
-                <Class IRI="#Cramps"/>
-            </ObjectSomeValuesFrom>
+            <ObjectIntersectionOf>
+                <Class IRI="#Constipation"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="#UserDepressed"/>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasMoodRelation"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Depressed"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasMoodRelation"/>
+                    <Class IRI="#MoodRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="#UserDiarrhea"/>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptomRelation"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Diarrhea"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="#UserDizziness"/>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptomRelation"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Dizziness"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="#UserEmotional"/>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasMoodRelation"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Emotional"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasMoodRelation"/>
+                    <Class IRI="#MoodRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="#UserEnergetic"/>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasMoodRelation"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Energetic"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasMoodRelation"/>
+                    <Class IRI="#MoodRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="#UserExcited"/>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasMoodRelation"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Excited"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasMoodRelation"/>
+                    <Class IRI="#MoodRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="#UserFatigue"/>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptomRelation"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Fatigue"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="#UserFocused"/>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasMoodRelation"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Focused"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasMoodRelation"/>
+                    <Class IRI="#MoodRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="#UserFrisky"/>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasMoodRelation"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Frisky"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasMoodRelation"/>
+                    <Class IRI="#MoodRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="#UserFrustated"/>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasMoodRelation"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Frustated"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasMoodRelation"/>
+                    <Class IRI="#MoodRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="#UserHappy"/>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasMoodRelation"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Happy"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasMoodRelation"/>
+                    <Class IRI="#MoodRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="#UserHeadache"/>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptomRelation"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Headache"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="#UserHotFlashes"/>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptomRelation"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#HotFlashes"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="#UserInLove"/>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasMoodRelation"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#InLove"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasMoodRelation"/>
+                    <Class IRI="#MoodRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="#UserIndigestion"/>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptomRelation"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Indigestion"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="#UserInsomnia"/>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptomRelation"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Insomnia"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="#UserIrritable"/>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasMoodRelation"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Irritable"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasMoodRelation"/>
+                    <Class IRI="#MoodRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
