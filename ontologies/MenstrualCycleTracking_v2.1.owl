@@ -1,0 +1,3823 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/erika/ontologies/menstrual_cycle"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/erika/ontologies/menstrual_cycle">
+    <Prefix name="" IRI="http://www.semanticweb.org/erika/ontologies/menstrual_cycle"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#testCase"/>
+        <AnonymousIndividual nodeID="_:genid2147483682"/>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#testCase"/>
+        <AnonymousIndividual nodeID="_:genid2147483683"/>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#testCase"/>
+        <AnonymousIndividual nodeID="_:genid2147483684"/>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#testCase"/>
+        <AnonymousIndividual nodeID="_:genid2147483685"/>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#testCase"/>
+        <AnonymousIndividual nodeID="_:genid2147483686"/>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#testCase"/>
+        <AnonymousIndividual nodeID="_:genid2147483687"/>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#testCase"/>
+        <AnonymousIndividual nodeID="_:genid2147483688"/>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#testCase"/>
+        <AnonymousIndividual nodeID="_:genid2147483689"/>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#testCase"/>
+        <AnonymousIndividual nodeID="_:genid2147483690"/>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#testCase"/>
+        <AnonymousIndividual nodeID="_:genid2147483691"/>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#testCase"/>
+        <AnonymousIndividual nodeID="_:genid2147483692"/>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#testCase"/>
+        <AnonymousIndividual nodeID="_:genid2147483693"/>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#testCase"/>
+        <AnonymousIndividual nodeID="_:genid2147483694"/>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#Acne"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Angry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Anxious"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Appetite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Backache"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bloating"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Calm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Constipation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cramps"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Depressed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Diarrhea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dizziness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Emotional"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Energetic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Excited"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fatigue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Focused"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Frisky"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Frustated"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Happy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Headache"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HotFlashes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InLove"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Indigestion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Insomnia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Irritable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Migraine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mild"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Moderate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MoodRelation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Moody"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nausea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PainDuringSex"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PelvicPain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Severe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SexDrive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sick"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SoreBreasts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Symptom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SymptomLevel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SymptomRelation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#User"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserAcne"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserAngry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserAnxious"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserAppetite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserBackache"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserBloating"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserCalm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserConstipation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserCramps"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserDepressed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserDiarrhea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserDizziness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserEmotional"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserEnergetic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserExcited"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserFatigue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserFocused"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserFrisky"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserFrustated"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserHappy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserHeadache"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserHotFlashes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserInLove"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserIndigestion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserInsomnia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserIrritable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserMigraine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserMoody"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserNausea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserPainDuringSex"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserPelvicPain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserSexDrive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserSick"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserSoreBreasts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserVaginalPain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VaginalPain"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMood"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMoodRelation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSymptom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSymptomLevel"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSymptomRelation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasAge"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="ç..#hasMoodDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="ç..#hasSymptomDate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_eva"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_evaHasMigraine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_evaHasSevere"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_evaSymptomRelation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userAcne01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userAcne02"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userAcne03"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userAcne04"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userAcne05"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userAppetite01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userAppetite02"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userAppetite03"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userAppetite04"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userAppetite05"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userBackache01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userBackache02"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userBackache03"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userBackache04"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userBackache05"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userBackache06"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userBackache07"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userBackache08"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userBackache09"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userBackache10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userBloating01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userBloating02"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userBloating03"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userBloating04"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userBloating05"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userBloating06"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userBloating07"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userBloating08"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userBloating09"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userBloating10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userConstipation01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userConstipation02"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userConstipation03"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userConstipation04"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userConstipation05"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userConstipation06"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userConstipation07"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userConstipation08"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userConstipation09"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userConstipation10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userConstipation11"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userConstipation12"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userConstipation13"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userConstipation14"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userConstipation15"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userConstipation16"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userConstipation17"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userConstipation18"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userConstipation19"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userConstipation20"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userConstipation21"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userConstipation22"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userConstipation23"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userConstipation24"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userConstipation25"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userConstipation26"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userConstipation27"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userConstipation28"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userConstipation29"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userConstipation30"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userCramps01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userCramps02"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userCramps03"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userCramps04"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userCramps05"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userCramps06"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userCramps07"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userCramps08"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userCramps09"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userCramps10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userCramps11"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userCramps12"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userCramps13"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userCramps14"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userCramps15"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userCramps16"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userCramps17"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userCramps18"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userCramps19"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userCramps20"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userCramps21"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userCramps22"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userCramps23"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userCramps24"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userCramps25"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userInsomnia01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userInsomnia02"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userInsomnia03"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userInsomnia04"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userInsomnia05"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userMigraine01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userMigraine02"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userMigraine03"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userMigraine04"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userMigraine05"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userMigraine06"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userMigraine07"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userMigraine08"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userMigraine09"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userMigraine10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userMigraine11"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userMigraine12"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userMigraine13"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userMigraine14"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userMigraine15"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userMigraine16"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userMigraine17"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userMigraine18"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userMigraine19"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userMigraine20"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userMigraine21"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userMigraine22"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userMigraine23"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userMigraine24"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userMigraine25"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userNausea01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userNausea02"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userNausea03"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userNausea04"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userNausea05"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userNausea06"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userNausea07"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userNausea08"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userNausea09"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userNausea10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userNausea11"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userNausea12"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userNausea13"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userNausea14"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userNausea15"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userNausea16"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userNausea17"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userNausea18"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userNausea19"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userNausea20"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userNausea21"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userNausea22"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userNausea23"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userNausea24"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userNausea25"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userNausea26"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userNausea27"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userNausea28"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userNausea29"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userNausea30"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userSick01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userSick02"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userSick03"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userSick04"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userSick05"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userSick06"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userSick07"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userSick08"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userSick09"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userSick10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userSick11"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userSick12"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userSick13"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userSick14"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userSick15"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userSick16"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userSick17"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userSick18"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userSick19"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userSick20"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userSick21"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userSick22"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userSick23"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userSick24"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userSick25"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userSick26"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userSick27"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userSick28"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userSick29"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userSick30"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_userTEST01"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#axiom"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#testCase"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#type"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://protege.stanford.edu/swbp/diagnosis.rdf#diagnosis_value"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdf:value"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Mood"/>
+        <ObjectUnionOf>
+            <Class IRI="#Angry"/>
+            <Class IRI="#Anxious"/>
+            <Class IRI="#Calm"/>
+            <Class IRI="#Depressed"/>
+            <Class IRI="#Emotional"/>
+            <Class IRI="#Energetic"/>
+            <Class IRI="#Excited"/>
+            <Class IRI="#Focused"/>
+            <Class IRI="#Frisky"/>
+            <Class IRI="#Frustated"/>
+            <Class IRI="#Happy"/>
+            <Class IRI="#InLove"/>
+            <Class IRI="#Irritable"/>
+            <Class IRI="#Moody"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Symptom"/>
+        <ObjectUnionOf>
+            <Class IRI="#Acne"/>
+            <Class IRI="#Appetite"/>
+            <Class IRI="#Backache"/>
+            <Class IRI="#Bloating"/>
+            <Class IRI="#Constipation"/>
+            <Class IRI="#Cramps"/>
+            <Class IRI="#Diarrhea"/>
+            <Class IRI="#Dizziness"/>
+            <Class IRI="#Fatigue"/>
+            <Class IRI="#Headache"/>
+            <Class IRI="#HotFlashes"/>
+            <Class IRI="#Indigestion"/>
+            <Class IRI="#Insomnia"/>
+            <Class IRI="#Migraine"/>
+            <Class IRI="#Nausea"/>
+            <Class IRI="#PainDuringSex"/>
+            <Class IRI="#PelvicPain"/>
+            <Class IRI="#SexDrive"/>
+            <Class IRI="#Sick"/>
+            <Class IRI="#SoreBreasts"/>
+            <Class IRI="#VaginalPain"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#SymptomLevel"/>
+        <ObjectUnionOf>
+            <Class IRI="#Mild"/>
+            <Class IRI="#Moderate"/>
+            <Class IRI="#Severe"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserAcne"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Acne"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserAngry"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Angry"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserAnxious"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Anxious"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasMoodRelation"/>
+                    <Class IRI="#MoodRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserAppetite"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Appetite"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserBackache"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Backache"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserBloating"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Bloating"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserCalm"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasMoodRelation"/>
+                <Class IRI="#Calm"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserConstipation"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptomRelation"/>
+                <Class IRI="#Constipation"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserCramps"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptomRelation"/>
+                <Class IRI="#Cramps"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserDepressed"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasMoodRelation"/>
+                <Class IRI="#Depressed"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserDiarrhea"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptomRelation"/>
+                <Class IRI="#Diarrhea"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserDizziness"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptomRelation"/>
+                <Class IRI="#Dizziness"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserEmotional"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasMoodRelation"/>
+                <Class IRI="#Emotional"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserEnergetic"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasMoodRelation"/>
+                <Class IRI="#Energetic"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserExcited"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasMoodRelation"/>
+                <Class IRI="#Excited"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserFatigue"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptomRelation"/>
+                <Class IRI="#Fatigue"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserFocused"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasMoodRelation"/>
+                <Class IRI="#Focused"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserFrisky"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasMoodRelation"/>
+                <Class IRI="#Frisky"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserFrustated"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasMoodRelation"/>
+                <Class IRI="#Frustated"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserHappy"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasMoodRelation"/>
+                <Class IRI="#Happy"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserHeadache"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptomRelation"/>
+                <Class IRI="#Headache"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserHotFlashes"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptomRelation"/>
+                <Class IRI="#HotFlashes"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserInLove"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasMoodRelation"/>
+                <Class IRI="#InLove"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserIndigestion"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptomRelation"/>
+                <Class IRI="#Indigestion"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserInsomnia"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptomRelation"/>
+                <Class IRI="#Insomnia"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserIrritable"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasMoodRelation"/>
+                <Class IRI="#Irritable"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserMigraine"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptomRelation"/>
+                <Class IRI="#Migraine"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserMoody"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasMoodRelation"/>
+                <Class IRI="#Moody"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserNausea"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptomRelation"/>
+                <Class IRI="#Nausea"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserPainDuringSex"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptomRelation"/>
+                <Class IRI="#PainDuringSex"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserPelvicPain"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptomRelation"/>
+                <Class IRI="#PelvicPain"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserSexDrive"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptomRelation"/>
+                <Class IRI="#SexDrive"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserSick"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptomRelation"/>
+                <Class IRI="#Sick"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserSoreBreasts"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptomRelation"/>
+                <Class IRI="#SoreBreasts"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserVaginalPain"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptomRelation"/>
+                <Class IRI="#VaginalPain"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Acne"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Angry"/>
+        <Class IRI="#Mood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anxious"/>
+        <Class IRI="#Mood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Appetite"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Backache"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bloating"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Calm"/>
+        <Class IRI="#Mood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Constipation"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cramps"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Depressed"/>
+        <Class IRI="#Mood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diarrhea"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dizziness"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Emotional"/>
+        <Class IRI="#Mood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Energetic"/>
+        <Class IRI="#Mood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Excited"/>
+        <Class IRI="#Mood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fatigue"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Focused"/>
+        <Class IRI="#Mood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Frisky"/>
+        <Class IRI="#Mood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Frustated"/>
+        <Class IRI="#Mood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Happy"/>
+        <Class IRI="#Mood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Headache"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HotFlashes"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InLove"/>
+        <Class IRI="#Mood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Indigestion"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Insomnia"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Irritable"/>
+        <Class IRI="#Mood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Migraine"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mild"/>
+        <Class IRI="#SymptomLevel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Moderate"/>
+        <Class IRI="#SymptomLevel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MoodRelation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasMood"/>
+            <Class IRI="#Mood"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Moody"/>
+        <Class IRI="#Mood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nausea"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PainDuringSex"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PelvicPain"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Severe"/>
+        <Class IRI="#SymptomLevel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SexDrive"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sick"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SoreBreasts"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SymptomRelation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSymptom"/>
+            <Class IRI="#Symptom"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SymptomRelation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSymptomLevel"/>
+            <Class IRI="#SymptomLevel"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserAnxious"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserAppetite"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserBackache"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserBloating"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserConstipation"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserCramps"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserDepressed"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserDiarrhea"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserDizziness"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserEmotional"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserEnergetic"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserExcited"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserFatigue"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserFocused"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserFrisky"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserFrustated"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserHappy"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserHeadache"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserHotFlashes"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserInLove"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserIndigestion"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserIrritable"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserMoody"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserPainDuringSex"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserPelvicPain"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserSexDrive"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserSick"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserSoreBreasts"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserVaginalPain"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VaginalPain"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Acne"/>
+        <Class IRI="#Appetite"/>
+        <Class IRI="#Backache"/>
+        <Class IRI="#Bloating"/>
+        <Class IRI="#Constipation"/>
+        <Class IRI="#Cramps"/>
+        <Class IRI="#Diarrhea"/>
+        <Class IRI="#Dizziness"/>
+        <Class IRI="#Fatigue"/>
+        <Class IRI="#Headache"/>
+        <Class IRI="#HotFlashes"/>
+        <Class IRI="#Indigestion"/>
+        <Class IRI="#Insomnia"/>
+        <Class IRI="#Migraine"/>
+        <Class IRI="#Nausea"/>
+        <Class IRI="#PainDuringSex"/>
+        <Class IRI="#PelvicPain"/>
+        <Class IRI="#SexDrive"/>
+        <Class IRI="#Sick"/>
+        <Class IRI="#SoreBreasts"/>
+        <Class IRI="#VaginalPain"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Angry"/>
+        <Class IRI="#Anxious"/>
+        <Class IRI="#Calm"/>
+        <Class IRI="#Depressed"/>
+        <Class IRI="#Emotional"/>
+        <Class IRI="#Energetic"/>
+        <Class IRI="#Excited"/>
+        <Class IRI="#Focused"/>
+        <Class IRI="#Frisky"/>
+        <Class IRI="#Frustated"/>
+        <Class IRI="#Happy"/>
+        <Class IRI="#InLove"/>
+        <Class IRI="#Irritable"/>
+        <Class IRI="#Moody"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Mild"/>
+        <Class IRI="#Moderate"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Mild"/>
+        <Class IRI="#Severe"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Moderate"/>
+        <Class IRI="#Severe"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Nausea"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_eva"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Migraine"/>
+        <NamedIndividual IRI="#_evaHasMigraine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Severe"/>
+        <NamedIndividual IRI="#_evaHasSevere"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SymptomRelation"/>
+        <NamedIndividual IRI="#_evaSymptomRelation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Acne"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userAcne01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Acne"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userAcne02"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Acne"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userAcne03"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Acne"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userAcne04"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Acne"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userAcne05"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Appetite"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userAppetite01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Appetite"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userAppetite02"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Appetite"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userAppetite03"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Appetite"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userAppetite04"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Appetite"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userAppetite05"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Backache"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userBackache01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Backache"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userBackache02"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Backache"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userBackache03"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Backache"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userBackache04"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Backache"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userBackache05"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Backache"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userBackache06"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Backache"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userBackache07"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Backache"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userBackache08"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Backache"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userBackache09"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Backache"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userBackache10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Bloating"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userBloating01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Bloating"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userBloating02"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Bloating"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userBloating03"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Bloating"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userBloating04"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Bloating"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userBloating05"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Bloating"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userBloating06"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Bloating"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userBloating07"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Bloating"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userBloating08"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Bloating"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userBloating09"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Bloating"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userBloating10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Constipation"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userConstipation01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Constipation"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userConstipation02"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Constipation"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userConstipation03"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Constipation"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userConstipation04"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Constipation"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userConstipation05"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Constipation"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userConstipation06"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Constipation"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userConstipation07"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Constipation"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userConstipation08"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Constipation"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userConstipation09"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Constipation"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userConstipation10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Constipation"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userConstipation11"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Constipation"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userConstipation12"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Constipation"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userConstipation13"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Constipation"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userConstipation14"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Constipation"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userConstipation15"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Constipation"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userConstipation16"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Constipation"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userConstipation17"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Constipation"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userConstipation18"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Constipation"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userConstipation19"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Constipation"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userConstipation20"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Constipation"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userConstipation21"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Constipation"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userConstipation22"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Constipation"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userConstipation23"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Constipation"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userConstipation24"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Constipation"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userConstipation25"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Constipation"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userConstipation26"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Constipation"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userConstipation27"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Constipation"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userConstipation28"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Constipation"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userConstipation29"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Constipation"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userConstipation30"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Cramps"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userCramps01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Cramps"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userCramps02"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Cramps"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userCramps03"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Cramps"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userCramps04"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Cramps"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userCramps05"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Cramps"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userCramps06"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Cramps"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userCramps07"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Cramps"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userCramps08"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Cramps"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userCramps09"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Cramps"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userCramps10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Cramps"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userCramps11"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Cramps"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userCramps12"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Cramps"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userCramps13"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Cramps"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userCramps14"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Cramps"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userCramps15"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Cramps"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userCramps16"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Cramps"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userCramps17"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Cramps"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userCramps18"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Cramps"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userCramps19"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Cramps"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userCramps20"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Cramps"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userCramps21"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Cramps"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userCramps22"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Cramps"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userCramps23"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Cramps"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userCramps24"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Cramps"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userCramps25"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Insomnia"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userInsomnia01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Insomnia"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userInsomnia02"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Insomnia"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userInsomnia03"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Insomnia"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userInsomnia04"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Insomnia"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userInsomnia05"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Migraine"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userMigraine01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Migraine"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userMigraine02"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Migraine"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userMigraine03"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Migraine"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userMigraine04"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Migraine"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userMigraine05"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Migraine"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userMigraine06"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Migraine"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userMigraine07"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Migraine"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userMigraine08"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Migraine"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userMigraine09"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Migraine"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userMigraine10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Migraine"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userMigraine11"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Migraine"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userMigraine12"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Migraine"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userMigraine13"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Migraine"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userMigraine14"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Migraine"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userMigraine15"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Migraine"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userMigraine16"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Migraine"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userMigraine17"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Migraine"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userMigraine18"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Migraine"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userMigraine19"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Migraine"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userMigraine20"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Migraine"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userMigraine21"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Migraine"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userMigraine22"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Migraine"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userMigraine23"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Migraine"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userMigraine24"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Migraine"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userMigraine25"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UserNausea"/>
+        <NamedIndividual IRI="#_userNausea01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Nausea"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userNausea01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Nausea"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userNausea02"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Nausea"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userNausea03"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Nausea"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userNausea04"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Nausea"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userNausea05"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Nausea"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userNausea06"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Nausea"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userNausea07"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Nausea"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userNausea08"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Nausea"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userNausea09"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Nausea"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userNausea10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Nausea"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userNausea11"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Nausea"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userNausea12"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Nausea"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userNausea13"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Nausea"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userNausea14"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Nausea"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userNausea15"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Nausea"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userNausea16"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Nausea"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userNausea17"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Nausea"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userNausea18"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Nausea"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userNausea19"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Nausea"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userNausea20"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Nausea"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userNausea21"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Nausea"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userNausea22"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Nausea"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userNausea23"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Nausea"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userNausea24"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Nausea"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userNausea25"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Nausea"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userNausea26"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Nausea"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userNausea27"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Nausea"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userNausea28"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Nausea"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userNausea29"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Nausea"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userNausea30"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Sick"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userSick01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Sick"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userSick02"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Sick"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userSick03"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Sick"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userSick04"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Sick"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userSick05"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Sick"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userSick06"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Sick"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userSick07"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Sick"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userSick08"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Sick"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userSick09"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Sick"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userSick10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Sick"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userSick11"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Sick"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userSick12"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Sick"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userSick13"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Sick"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userSick14"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Sick"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userSick15"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Sick"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userSick16"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Sick"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userSick17"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Sick"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userSick18"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Sick"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userSick19"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Sick"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userSick20"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Sick"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userSick21"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Sick"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userSick22"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Sick"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userSick23"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Sick"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userSick24"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Sick"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userSick25"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Sick"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userSick26"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Sick"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userSick27"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Sick"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userSick28"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Sick"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userSick29"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSymptom"/>
+                <Class IRI="#Sick"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userSick30"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#User"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Acne"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#_userTEST01"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSymptomRelation"/>
+        <NamedIndividual IRI="#_eva"/>
+        <NamedIndividual IRI="#_evaSymptomRelation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSymptom"/>
+        <NamedIndividual IRI="#_evaSymptomRelation"/>
+        <NamedIndividual IRI="#_evaHasMigraine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSymptomLevel"/>
+        <NamedIndividual IRI="#_evaSymptomRelation"/>
+        <NamedIndividual IRI="#_evaHasSevere"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="ç..#hasSymptomDate"/>
+        <NamedIndividual IRI="#_evaSymptomRelation"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTimeStamp">2021-09-12T13:20:00-05:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasAge"/>
+        <NamedIndividual IRI="#_userAcne01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">18</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasAge"/>
+        <NamedIndividual IRI="#_userAcne02"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasAge"/>
+        <NamedIndividual IRI="#_userAcne03"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">34</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasAge"/>
+        <NamedIndividual IRI="#_userAcne04"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">35</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasAge"/>
+        <NamedIndividual IRI="#_userAcne05"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">28</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasAge"/>
+        <NamedIndividual IRI="#_userAppetite01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">40</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasAge"/>
+        <NamedIndividual IRI="#_userAppetite02"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">31</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasAge"/>
+        <NamedIndividual IRI="#_userAppetite03"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">35</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasAge"/>
+        <NamedIndividual IRI="#_userAppetite04"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">18</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasAge"/>
+        <NamedIndividual IRI="#_userAppetite05"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">31</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasAge"/>
+        <NamedIndividual IRI="#_userBackache01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">36</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasAge"/>
+        <NamedIndividual IRI="#_userBackache02"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">37</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasAge"/>
+        <NamedIndividual IRI="#_userBackache03"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">27</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasAge"/>
+        <NamedIndividual IRI="#_userBackache04"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">26</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasAge"/>
+        <NamedIndividual IRI="#_userInsomnia01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">26</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasAge"/>
+        <NamedIndividual IRI="#_userInsomnia02"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">25</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasAge"/>
+        <NamedIndividual IRI="#_userMigraine01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">28</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasAge"/>
+        <NamedIndividual IRI="#_userMigraine02"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">33</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasAge"/>
+        <NamedIndividual IRI="#_userMigraine03"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">37</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasAge"/>
+        <NamedIndividual IRI="#_userMigraine04"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">31</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasAge"/>
+        <NamedIndividual IRI="#_userMigraine05"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">35</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasAge"/>
+        <NamedIndividual IRI="#_userMigraine06"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">36</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasAge"/>
+        <NamedIndividual IRI="#_userMigraine07"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">33</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasAge"/>
+        <NamedIndividual IRI="#_userMigraine08"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">39</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasAge"/>
+        <NamedIndividual IRI="#_userMigraine09"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">22</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasAge"/>
+        <NamedIndividual IRI="#_userMigraine10"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasAge"/>
+        <NamedIndividual IRI="#_userMigraine11"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">33</Literal>
+    </DataPropertyAssertion>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasMood"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasMoodRelation"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasSymptom"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasSymptomLevel"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasSymptomRelation"/>
+    </FunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMood"/>
+        <Class IRI="#MoodRelation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMoodRelation"/>
+        <Class IRI="#User"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSymptom"/>
+        <Class IRI="#SymptomRelation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSymptomLevel"/>
+        <Class IRI="#SymptomRelation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSymptomRelation"/>
+        <Class IRI="#User"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMood"/>
+        <Class IRI="#Mood"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMoodRelation"/>
+        <Class IRI="#MoodRelation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSymptom"/>
+        <Class IRI="#Symptom"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSymptomLevel"/>
+        <Class IRI="#SymptomLevel"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSymptomRelation"/>
+        <Class IRI="#SymptomRelation"/>
+    </ObjectPropertyRange>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasAge"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="ç..#hasMoodDate"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="ç..#hasSymptomDate"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasAge"/>
+        <Class IRI="#User"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="ç..#hasMoodDate"/>
+        <Class IRI="#MoodRelation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="ç..#hasSymptomDate"/>
+        <Class IRI="#SymptomRelation"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasAge"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="ç..#hasMoodDate"/>
+        <Datatype abbreviatedIRI="xsd:dateTimeStamp"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="ç..#hasSymptomDate"/>
+        <Datatype abbreviatedIRI="xsd:dateTimeStamp"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#axiom"/>
+        <AnonymousIndividual nodeID="_:genid2147483661"/>
+        <Literal>UserMigraine SubClassOf User</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#type"/>
+        <AnonymousIndividual nodeID="_:genid2147483661"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#axiom"/>
+        <AnonymousIndividual nodeID="_:genid2147483662"/>
+        <Literal>UserAcne SubClassOf User</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#type"/>
+        <AnonymousIndividual nodeID="_:genid2147483662"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#axiom"/>
+        <AnonymousIndividual nodeID="_:genid2147483663"/>
+        <Literal>UserInsomnia SubClassOf User</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#type"/>
+        <AnonymousIndividual nodeID="_:genid2147483663"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#axiom"/>
+        <AnonymousIndividual nodeID="_:genid2147483664"/>
+        <Literal>UserAcne SubClassOf Acne</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#type"/>
+        <AnonymousIndividual nodeID="_:genid2147483664"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#axiom"/>
+        <AnonymousIndividual nodeID="_:genid2147483665"/>
+        <Literal>UserInsomnia SubClassOf Insomnia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#type"/>
+        <AnonymousIndividual nodeID="_:genid2147483665"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#axiom"/>
+        <AnonymousIndividual nodeID="_:genid2147483666"/>
+        <Literal>UserMigraine SubClassOf Migraine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#type"/>
+        <AnonymousIndividual nodeID="_:genid2147483666"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#axiom"/>
+        <AnonymousIndividual nodeID="_:genid2147483667"/>
+        <Literal>UserMigraine SubClassOf User</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#type"/>
+        <AnonymousIndividual nodeID="_:genid2147483667"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#axiom"/>
+        <AnonymousIndividual nodeID="_:genid2147483668"/>
+        <Literal>User SubClassOf Migraine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#type"/>
+        <AnonymousIndividual nodeID="_:genid2147483668"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#axiom"/>
+        <AnonymousIndividual nodeID="_:genid2147483669"/>
+        <Literal>User SubClassOf Acne</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#type"/>
+        <AnonymousIndividual nodeID="_:genid2147483669"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#axiom"/>
+        <AnonymousIndividual nodeID="_:genid2147483670"/>
+        <Literal>UserMigraine SubClassOf User</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#type"/>
+        <AnonymousIndividual nodeID="_:genid2147483670"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#axiom"/>
+        <AnonymousIndividual nodeID="_:genid2147483671"/>
+        <Literal>UserMigraine SubClassOf Migraine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#type"/>
+        <AnonymousIndividual nodeID="_:genid2147483671"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#axiom"/>
+        <AnonymousIndividual nodeID="_:genid2147483672"/>
+        <Literal>User SubClassOf Migraine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#type"/>
+        <AnonymousIndividual nodeID="_:genid2147483672"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#axiom"/>
+        <AnonymousIndividual nodeID="_:genid2147483673"/>
+        <Literal>User SubClassOf Acne</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#type"/>
+        <AnonymousIndividual nodeID="_:genid2147483673"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </AnnotationAssertion>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#axiom"/>
+        <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#testCase"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#type"/>
+        <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#testCase"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="http://protege.stanford.edu/swbp/diagnosis.rdf#diagnosis_value"/>
+        <AnnotationProperty abbreviatedIRI="rdf:value"/>
+    </SubAnnotationPropertyOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
