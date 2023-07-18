@@ -6,11 +6,38 @@ http://www.semanticweb.org/root/ontologies/2021/0/MenstrualCycleTracking#
 Sparql Protegé
 
 PREFIX mens:<http://www.semanticweb.org/erika/ontologies/menstrual_cycle#>
-
-
-		#?r  mens:hasSymptom ?m. 
-		#?m owl:someValuesFrom mens:Acne.
+#?r  mens:hasSymptom ?m. 
+#?m owl:someValuesFrom mens:Acne.
+-----------------------------------------------------------------------------------------		
 		
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX mens:<http://www.semanticweb.org/erika/ontologies/menstrual_cycle#>
+SELECT  (count(distinct ?users) as ?users_with_symptoms)
+	WHERE { 
+
+		?users rdf:type ?user .		 
+		?user owl:intersectionOf ?list .
+		?list rdf:rest*/rdf:first ?equivalentClass .
+
+		?equivalentClass owl:intersectionOf ?list2.
+
+		?list2 rdf:rest*/rdf:first ?s.
+		
+		FILTER (?s = mens:Acne || ?s = mens:Appetite || ?s = mens:Insomnia 
+			|| ?s = mens:Backache || ?s = mens:Bloating || ?s = mens:Constipation
+			|| ?s = mens:Migraine || ?s = mens:Cramps  || ?s = mens:Nausea || ?s = mens:Sick)
+
+}
+		
+	
+	
+	
+	
+	
+			
 		
 
 --------------------------------------------------------
@@ -84,16 +111,22 @@ PREFIX mens:<http://www.semanticweb.org/erika/ontologies/menstrual_cycle#>
 SELECT  (count(distinct ?users) as ?users_with_symptoms)
 	WHERE { 
 
-		?users rdf:type ?user. 
-		?user owl:intersectionOf ?list.
+		?users rdf:type ?user .		 
+		?user owl:intersectionOf ?list .
 		?list rdf:rest*/rdf:first ?equivalentClass .
-		?equivalentClass rdf:type owl:Restriction .
-		?equivalentClass owl:onProperty mens:hasSymptom .
-		?equivalentClass owl:someValuesFrom ?s .
+
+		?equivalentClass owl:intersectionOf ?list2.
+
+		?list2 rdf:rest*/rdf:first ?s.
 		
 		FILTER (?s = mens:Acne || ?s = mens:Appetite || ?s = mens:Insomnia 
 			|| ?s = mens:Backache || ?s = mens:Bloating || ?s = mens:Constipation
 			|| ?s = mens:Migraine || ?s = mens:Cramps  || ?s = mens:Nausea || ?s = mens:Sick)
+
+#		?equivalentClass rdf:type owl:Restriction .
+#		?equivalentClass owl:onProperty mens:hasSymptomRelation .
+#		?equivalentClass owl:someValuesFrom ?s .
+		
 		
 	}
 		
@@ -111,12 +144,14 @@ PREFIX mens:<http://www.semanticweb.org/erika/ontologies/menstrual_cycle#>
 SELECT  (count(distinct ?userAcne) as ?users_with_acne)
 	WHERE { 
 
-		?userAcne rdf:type ?user. 
-		?user owl:intersectionOf ?list.
+		
+		?userAcne rdf:type ?user .		 
+		?user owl:intersectionOf ?list .
 		?list rdf:rest*/rdf:first ?equivalentClass .
-		?equivalentClass rdf:type owl:Restriction .
-		?equivalentClass owl:onProperty mens:hasSymptom .
-		?equivalentClass owl:someValuesFrom mens:Acne .
+
+		?equivalentClass owl:intersectionOf ?list2.
+
+		?list2 rdf:rest*/rdf:first mens:Acne .
 		
 	}
 	
