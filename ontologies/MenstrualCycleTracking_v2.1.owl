@@ -14,55 +14,55 @@
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Annotation>
         <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#testCase"/>
-        <AnonymousIndividual nodeID="_:genid2147483682"/>
+        <AnonymousIndividual nodeID="_:genid2147483714"/>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#testCase"/>
-        <AnonymousIndividual nodeID="_:genid2147483683"/>
+        <AnonymousIndividual nodeID="_:genid2147483715"/>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#testCase"/>
-        <AnonymousIndividual nodeID="_:genid2147483684"/>
+        <AnonymousIndividual nodeID="_:genid2147483716"/>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#testCase"/>
-        <AnonymousIndividual nodeID="_:genid2147483685"/>
+        <AnonymousIndividual nodeID="_:genid2147483717"/>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#testCase"/>
-        <AnonymousIndividual nodeID="_:genid2147483686"/>
+        <AnonymousIndividual nodeID="_:genid2147483718"/>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#testCase"/>
-        <AnonymousIndividual nodeID="_:genid2147483687"/>
+        <AnonymousIndividual nodeID="_:genid2147483719"/>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#testCase"/>
-        <AnonymousIndividual nodeID="_:genid2147483688"/>
+        <AnonymousIndividual nodeID="_:genid2147483720"/>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#testCase"/>
-        <AnonymousIndividual nodeID="_:genid2147483689"/>
+        <AnonymousIndividual nodeID="_:genid2147483721"/>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#testCase"/>
-        <AnonymousIndividual nodeID="_:genid2147483690"/>
+        <AnonymousIndividual nodeID="_:genid2147483722"/>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#testCase"/>
-        <AnonymousIndividual nodeID="_:genid2147483691"/>
+        <AnonymousIndividual nodeID="_:genid2147483723"/>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#testCase"/>
-        <AnonymousIndividual nodeID="_:genid2147483692"/>
+        <AnonymousIndividual nodeID="_:genid2147483724"/>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#testCase"/>
-        <AnonymousIndividual nodeID="_:genid2147483693"/>
+        <AnonymousIndividual nodeID="_:genid2147483725"/>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#testCase"/>
-        <AnonymousIndividual nodeID="_:genid2147483694"/>
+        <AnonymousIndividual nodeID="_:genid2147483726"/>
     </Annotation>
     <Declaration>
         <Class IRI="#Acne"/>
@@ -329,13 +329,13 @@
         <NamedIndividual IRI="#_eva"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#_evaHasMigraine"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#_evaHasSevere"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#_evaSymptomRelation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_migraine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_severe"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#_userAcne01"/>
@@ -1731,692 +1731,896 @@
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Nausea"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_eva"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Migraine"/>
-        <NamedIndividual IRI="#_evaHasMigraine"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Severe"/>
-        <NamedIndividual IRI="#_evaHasSevere"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#SymptomRelation"/>
         <NamedIndividual IRI="#_evaSymptomRelation"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Migraine"/>
+        <NamedIndividual IRI="#_migraine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Severe"/>
+        <NamedIndividual IRI="#_severe"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Acne"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userAcne01"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Acne"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userAcne02"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Acne"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userAcne03"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Acne"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userAcne04"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Acne"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userAcne05"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Appetite"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userAppetite01"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Appetite"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userAppetite02"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Appetite"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userAppetite03"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Appetite"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userAppetite04"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Appetite"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userAppetite05"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Backache"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userBackache01"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Backache"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userBackache02"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Backache"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userBackache03"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Backache"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userBackache04"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Backache"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userBackache05"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Backache"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userBackache06"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Backache"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userBackache07"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Backache"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userBackache08"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Backache"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userBackache09"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Backache"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userBackache10"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Bloating"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userBloating01"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Bloating"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userBloating02"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Bloating"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userBloating03"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Bloating"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userBloating04"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Bloating"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userBloating05"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Bloating"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userBloating06"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Bloating"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userBloating07"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Bloating"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userBloating08"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Bloating"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userBloating09"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Bloating"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userBloating10"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Constipation"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userConstipation01"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Constipation"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userConstipation02"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Constipation"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userConstipation03"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Constipation"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userConstipation04"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Constipation"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userConstipation05"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Constipation"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userConstipation06"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Constipation"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userConstipation07"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Constipation"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userConstipation08"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Constipation"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userConstipation09"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Constipation"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userConstipation10"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Constipation"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userConstipation11"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Constipation"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userConstipation12"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Constipation"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userConstipation13"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Constipation"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userConstipation14"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Constipation"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userConstipation15"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Constipation"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userConstipation16"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Constipation"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userConstipation17"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Constipation"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userConstipation18"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Constipation"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userConstipation19"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Constipation"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userConstipation20"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Constipation"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userConstipation21"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Constipation"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userConstipation22"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Constipation"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userConstipation23"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Constipation"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userConstipation24"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Constipation"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userConstipation25"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Constipation"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userConstipation26"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Constipation"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userConstipation27"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Constipation"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userConstipation28"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Constipation"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userConstipation29"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Constipation"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userConstipation30"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Cramps"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userCramps01"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Cramps"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userCramps02"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Cramps"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userCramps03"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Cramps"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userCramps04"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Cramps"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userCramps05"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Cramps"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userCramps06"/>
     </ClassAssertion>
     <ClassAssertion>
         <ObjectIntersectionOf>
             <Class IRI="#User"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSymptom"/>
+            <ObjectIntersectionOf>
                 <Class IRI="#Cramps"/>
-            </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasSymptomRelation"/>
+                    <Class IRI="#SymptomRelation"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="#_userCramps07"/>
     </ClassAssertion>
@@ -3525,12 +3729,12 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasSymptom"/>
         <NamedIndividual IRI="#_evaSymptomRelation"/>
-        <NamedIndividual IRI="#_evaHasMigraine"/>
+        <NamedIndividual IRI="#_migraine"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasSymptomLevel"/>
         <NamedIndividual IRI="#_evaSymptomRelation"/>
-        <NamedIndividual IRI="#_evaHasSevere"/>
+        <NamedIndividual IRI="#_severe"/>
     </ObjectPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="ç..#hasSymptomDate"/>
